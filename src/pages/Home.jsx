@@ -3,7 +3,6 @@ import { useEffect, useRef } from 'react';
 import cv from '../components/assets/Chibuike_Ukandu_ CV.pdf';
 import Typed from 'typed.js';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
 import sassIcon from '../components/assets/sass.png';
 import tailwindcssIcon from '../components/assets/tailwindcss.png';
 import javascriptIcon from '../components/assets/javascript.png';
