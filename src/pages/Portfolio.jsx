@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card } from './PortfolioCard';
 import { PortfolioList } from './PortfolioList';
-import { motion } from 'framer-motion';
 import { 
     AllWorks,
     ReactJSWorks, 

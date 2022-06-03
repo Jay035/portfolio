@@ -17,7 +17,7 @@ function App() {
     window.addEventListener('scroll', () => {
       return window.scrollY > 60 ? setBg(!bg) : setBg(bg)
     })
-  }, [])
+  }, [bg])
   AOS.init()
   return (
     <Router>
