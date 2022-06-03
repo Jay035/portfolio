@@ -7,8 +7,6 @@ export const AllWorks = [
         githubURL: "https://github.com/Jay035/travel-journal",
         demoURL: "https://jay035.github.io/travel-journal/",
         imagePosition: "object-center",
-        // description: "A react project from @scrimba react course",
-        // class: "html css javascript react"
     },
     {
         id: 2,
