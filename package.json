@@ -1,21 +1,38 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://Jay035.github.io/portfolio",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@react-pdf/renderer": "^2.1.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "babel-plugin-macros": "^3.1.0",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^6.3.6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-pdf": "^5.7.2",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-typical": "^0.1.3",
+    "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +51,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "autoprefixer": "^10.4.7",
+    "gh-pages": "^4.0.0",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
   }
 }
