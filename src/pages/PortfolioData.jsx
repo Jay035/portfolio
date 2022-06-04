@@ -1,7 +1,7 @@
 export const AllWorks = [
     {
         id: 1,
-        image: "/img/travel-journal.png",
+        image: "../components/assets/img/travel-journal.png",
         title: "Travel Journal",
         subTitle: 'Scrimba React JS challenge',
         githubURL: "https://github.com/Jay035/travel-journal",
@@ -10,7 +10,7 @@ export const AllWorks = [
     },
     {
         id: 2,
-        image: "/img/meme-generator.png",
+        image: "../components/assets/img/meme-generator.png",
         title: "Meme Generator",
         subTitle: 'Scrimba react course challenge',
         githubURL: "https://github.com/Jay035/meme-generator",
@@ -19,7 +19,7 @@ export const AllWorks = [
     },
     {
         id: 3,
-        image: "/img/portfolio.png",
+        image: "../components/assets/img/portfolio.png",
         title: "Portfolio",
         subTitle: 'Personal project',
         githubURL: "https://github.com/Jay035/portfolio",
@@ -28,7 +28,7 @@ export const AllWorks = [
     },
     {
         id: 4,
-        image: "/img/interactive-rating.jpg",
+        image: "../components/assets/img/interactive-rating.jpg",
         title: "Interactive Rating Component",
         subTitle: 'Frontendmentor challenge',
         githubURL: "https://github.com/Jay035/Interactive-rating-component",
@@ -37,7 +37,7 @@ export const AllWorks = [
     },
     {
         id: 5,
-        image: "/img/advice-generator.jpg",
+        image: "../components/assets/img/advice-generator.jpg",
         title: "Advice Generator",
         subTitle: 'Frontendmentor challenge',
         githubURL: "https://github.com/Jay035/Advice-generator",
@@ -46,7 +46,7 @@ export const AllWorks = [
     },
     {
         id: 6,
-        image: "/img/todo-app.jpg",
+        image: "../components/assets/img/todo-app.jpg",
         title: "Todo app",
         subTitle: 'Frontendmentor challenge',
         githubURL: "https://github.com/Jay035/todo-app",
@@ -55,7 +55,7 @@ export const AllWorks = [
     },
     {
         id: 7,
-        image: "/img/ecommerce.jpg",
+        image: "../components/assets/img/ecommerce.jpg",
         title: "ECommerce product page",
         subTitle: 'Frontendmentor challenge',
         githubURL: "https://github.com/Jay035/ecommerce-product-page",
@@ -64,7 +64,7 @@ export const AllWorks = [
     },
     {
         id: 8,
-        image: "/img/calculator.jpg",
+        image: "../components/assets/img/calculator.jpg",
         title: "Calculator app",
         subTitle: 'Frontendmentor challenge',
         githubURL: "https://github.com/Jay035/Calculator-app",
@@ -73,7 +73,7 @@ export const AllWorks = [
     },
     {
         id: 9,
-        image: "/img/social-media-dashboard.jpg",
+        image: "../components/assets/img/social-media-dashboard.jpg",
         title: "Social Media Dashboard",
         subTitle: 'Frontendmentor challenge',
         githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/social-media-dashboard-with-theme-switcher-master",
@@ -82,7 +82,7 @@ export const AllWorks = [
     },
     {
         id: 10,
-        image: "/img/launch-countdown.jpg",
+        image: "../components/assets/img/launch-countdown.jpg",
         title: "Launch countdown timer",
         subTitle: 'Frontendmentor Challenge',
         githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/launch-countdown-timer-main",
@@ -91,7 +91,7 @@ export const AllWorks = [
     },
     {
         id: 11,
-        image: "/img/intro-section.jpg",
+        image: "../components/assets/img/intro-section.jpg",
         title: "Intro Section",
         subTitle: 'Frontendmentor Challenge',
         githubURL: "https://github.com/Jay035/intro-section-with-dropdown-navigation",
@@ -100,7 +100,7 @@ export const AllWorks = [
     },
     {
         id: 13,
-        image: "/img/HNG_Resume.png",
+        image: "../components/assets/img/HNG_Resume.png",
         title: "Resume",
         subTitle: 'Task by HNG internship',
         githubURL: "https://github.com/Jay035/Resume",
@@ -109,7 +109,7 @@ export const AllWorks = [
     },
     {
         id: 20,
-        image: "/img/fylo-landing-page.jpg",
+        image: "../components/assets/img/fylo-landing-page.jpg",
         title: "Fylo landing page",
         subTitle: 'Frontendmentor Challenge',
         githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/fylo-dark-theme-landing-page-master",
@@ -118,7 +118,7 @@ export const AllWorks = [
     },
     {
         id: 21,
-        image: "/img/counter.png",
+        image: "../components/assets/img/counter.png",
         title: "Counter",
         subTitle: 'Task by SideHustle internship',
         githubURL: "https://github.com/Jay035/Javascript-projects/tree/main/Counter",
@@ -127,7 +127,7 @@ export const AllWorks = [
     },
     {
         id: 22,
-        image: "/img/dashboard.png",
+        image: "../components/assets/img/dashboard.png",
         title: "ECare Doctor's dashboard",
         subTitle: 'Task by ZURI Internship',
         githubURL: "https://github.com/Jay035/ECare/tree/main",
@@ -136,7 +136,7 @@ export const AllWorks = [
     },
     {
         id: 23,
-        image: "/img/social-proof.jpg",
+        image: "../components/assets/img/social-proof.jpg",
         title: "Social proof section",
         subTitle: 'Frontendmentor challenge',
         githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/social-proof-section-master",
@@ -145,7 +145,7 @@ export const AllWorks = [
     },
     {
         id: 24,
-        image: "/img/chat-app-illustration.jpg",
+        image: "../components/assets/img/chat-app-illustration.jpg",
         title: "Chat app Illustration",
         subTitle: 'Frontendmentor challenge',
         githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/chat-app-css-illustration-master",
@@ -154,7 +154,7 @@ export const AllWorks = [
     },
     {
         id: 25,
-        image: "/img/3-column-card.jpg",
+        image: "../components/assets/img/3-column-card.jpg",
         title: "3 Column card",
         subTitle: 'Frontendmentor challenge',
         githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/3-column-preview-card-component-main",
@@ -166,7 +166,7 @@ export const AllWorks = [
 export const ReactJSWorks = [
     {
         id: 1,
-        image: "/img/travel-journal.png",
+        image: "../components/assets/img/travel-journal.png",
         title: "Travel Journal",
         subTitle: 'Scrimba React JS challenge',
         githubURL: "https://github.com/Jay035/travel-journal",
@@ -177,7 +177,7 @@ export const ReactJSWorks = [
     },
     {
         id: 2,
-        image: "/img/meme-generator.png",
+        image: "../components/assets/img/meme-generator.png",
         title: "Meme Generator",
         subTitle: 'Scrimba react course challenge',
         githubURL: "https://github.com/Jay035/meme-generator",
@@ -186,7 +186,7 @@ export const ReactJSWorks = [
     },
     {
         id: 3,
-        image: "/img/portfolio.png",
+        image: "../components/assets/img/portfolio.png",
         title: "Portfolio",
         subTitle: 'Personal project',
         githubURL: "https://github.com/Jay035/portfolio",
@@ -195,7 +195,7 @@ export const ReactJSWorks = [
     },
     {
         id: 4,
-        image: "/img/interactive-rating.jpg",
+        image: "../components/assets/img/interactive-rating.jpg",
         title: "Interactive Rating Component",
         subTitle: 'Frontendmentor challenge',
         githubURL: "https://github.com/Jay035/Interactive-rating-component",
