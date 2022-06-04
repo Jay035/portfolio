@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-LIVE LINK https://jay035.github.io/portfolio-website-/
+LIVE LINK https://jay035.github.io/portfolio/
 
 ## Available Scripts
 
