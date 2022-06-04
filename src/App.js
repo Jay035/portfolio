@@ -2,7 +2,6 @@ import { Home } from "./pages/Home";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Project } from "./pages/Project";
 import { Contact } from "./pages/Contact";
-import { ErrorPage } from "./pages/ErrorPage";
 import { useEffect, useState } from "react";
 import logo from './components/assets/logo.png';
 import AOS from 'aos';
@@ -75,7 +74,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<ErrorPage />} />
+          {/* <Route path="*" element={<ErrorPage />} /> */}
         </Routes>
 
         <footer className="bg-blackk text-light-grey pb-6 relative w-full bottom-0">

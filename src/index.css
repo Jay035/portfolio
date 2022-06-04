@@ -8,11 +8,11 @@
     }
 
     ::-webkit-scrollbar-thumb{
-        background: #a5a5a8;
+        background: #444444;
     }
 
     ::-webkit-scrollbar-thumb:hover{
-        background: #444444;
+        background: #a5a5a8;
     }
 
     html{
@@ -76,10 +76,11 @@
         100%{
             opacity: 0;
         }
-        5%,
-        20%,
-        30%,
-        80%{
+        5%,20%,
+        30%,40%,
+        50%,60%,
+        70%,80%,
+        90%{
             opacity: 1;
         }
     }
