@@ -22,7 +22,8 @@ module.exports = {
       },
       backgroundImage: {
         'hero-img': "url('./components/assets/background.jpg')",
-        'portfolio-Bg': "url('./components/assets/portfolio-bg.jpg')"
+        'portfolio-Bg': "url('./components/assets/portfolio-bg.jpg')",
+        'contact-Bg': "url('./components/assets/contact.jpg')"
       },
     },
   },
