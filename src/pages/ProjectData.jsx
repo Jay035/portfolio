@@ -10,15 +10,15 @@ import dashboardImg from '../components/assets/dashboard.png';
 import ecommerceImg from '../components/assets/ecommerce.jpg';
 import fyloLandingPage from '../components/assets/fylo-landing-page.jpg';
 import HNGResumeImg from '../components/assets/HNG_Resume.png';
-import hoadrImg from '../components/assets/hoadr.png';
+// import hoadrImg from '../components/assets/hoadr.png';
 import interactiveRatingImg from '../components/assets/interactive-rating.jpg';
 import introSectionImg from '../components/assets/intro-section.jpg';
 import launchCountdownImg from '../components/assets/launch-countdown.jpg';
-import orderSummaryImg from '../components/assets/order-summary-component.jpg';
+// import orderSummaryImg from '../components/assets/order-summary-component.jpg';
 import socialMediaDashboard from '../components/assets/social-media-dashboard.jpg';
 import socialProofImg from '../components/assets/social-proof.jpg';
 import sunnysideLandingpage from '../components/assets/sunnyside-landing-page.jpg';
-import testimonialsPageImg from '../components/assets/testimonials-page.png'
+// import testimonialsPageImg from '../components/assets/testimonials-page.png'
 import todoApp from '../components/assets/todo-app.jpg';
 
 

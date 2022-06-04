@@ -1,6 +1,6 @@
 import { Home } from "./pages/Home";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import { PortfolioPage } from "./pages/PortfolioPage";
+import { Project } from "./pages/Project";
 import { Contact } from "./pages/Contact";
 import { ErrorPage } from "./pages/ErrorPage";
 import { useEffect, useState } from "react";
@@ -34,7 +34,7 @@ function App() {
                 <Link to="/">Home </Link>
               </li>
               <li id="portfolio" className="relative text-light-grey text-xl hover:text-white" onClick={() => setMenuDisplay(prevValue => !prevValue)}>
-                <Link to="/portfolioPage">Portfolio </Link>
+                <Link to="/project">Portfolio </Link>
               </li>
               <li id="contact" className="relative text-light-grey text-xl hover:text-white" onClick={() => setMenuDisplay(prevValue => !prevValue)}>
                 <Link to="/contact">Contact</Link>
@@ -73,7 +73,7 @@ function App() {
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/portfolioPage" element={<PortfolioPage />} />
+          <Route path="/projecte" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>

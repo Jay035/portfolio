@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Card } from './PortfolioCard';
-import { PortfolioList } from './PortfolioList';
+import { Card } from './ProjectCard';
+import { ProjectList } from './ProjectList';
 import { 
     AllWorks,
     ReactJSWorks, 
@@ -8,9 +8,9 @@ import {
     VanillaCSSWorks, 
     HTMLWorks, 
     TailwindCSSWorks  
-} from './PortfolioData';
+} from './ProjectData';
 
-export const PortfolioPage = () => {
+export const Project = () => {
     const portfolioHeading = "<PORTFOLIO />";
     const [selected, setSelected] = useState("all")
     const [data, setData] = useState([])
@@ -81,7 +81,7 @@ export const PortfolioPage = () => {
                 {/* buttons */}
                 <ul className="flex gap-x-8 gap-y-3 overflow-x-hidden flex-wrap w-full mx-auto mt-8">
                     {list.map(item => (
-                        <PortfolioList 
+                        <ProjectList 
                             key={item.id}
                             id={item.id} 
                             active={selected === item.id} 
@@ -89,16 +89,6 @@ export const PortfolioPage = () => {
                             title={item.title} 
                         />
                     ))}
-                    {/* <button className='rounded-lg bg-light-grey/10 px-4 py-2 font-semibold tracking-wider'>ALL</button>
-                    <button className='rounded-lg bg-light-grey/10 px-4 py-2 font-semibold tracking-wider'>HTML</button>
-                    <button className='rounded-lg bg-light-grey/10 px-4 py-2 font-semibold tracking-wider'>CSS</button>
-                    <button className='rounded-lg bg-light-grey/10 px-4 py-2 font-semibold tracking-wider'>SCSS/SASS</button> */}
-                    {/* <button className='rounded-lg bg-light-grey/10 px-4 py-2 font-semibold tracking-wider'>BOOTSTRAP</button> */}
-                    {/* <button className='rounded-lg bg-light-grey/10 px-4 py-2 font-semibold tracking-wider'>TailwindCSS</button>
-                    <button className='rounded-lg bg-light-grey/10 px-4 py-2 font-semibold tracking-wider'>Vanilla JS</button>
-                    <button className='rounded-lg bg-light-grey/10 px-4 py-2 font-semibold tracking-wider'>API</button> */}
-                    {/* <button className='rounded-lg bg-light-grey/10 px-4 py-2 font-semibold tracking-wider'>STYLED COMPONENTS</button> */}
-                    {/* <button className='rounded-lg bg-light-grey/10 px-4 py-2 font-semibold tracking-wider'>React JS</button> */}
                 </ul>
 
                 <section className='grid place-content-center sm:grid-cols-2 xl:grid-cols-3 gap-x-10 gap-y-6 items-center mt-10'>
