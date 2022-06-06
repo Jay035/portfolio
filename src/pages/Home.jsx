@@ -74,7 +74,7 @@ export const Home = () => {
               <div className="my-8">
                 <h5 className='text-2xl lg:text-3xl font-semibold mb-2'>Education</h5>
                 <ul className='list-disc pl-9 pb-2'>
-                  <li className='cursor-default'>
+                  <li className='cursor-default pb-2'>
                     <h6 className='font-medium'>AltSchool School of Engineering</h6>
                     <p className='text-base'>Software Engineering</p>
                     <p className='text-lg font-medium'>2022 - 2023</p>
