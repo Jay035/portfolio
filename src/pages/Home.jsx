@@ -159,7 +159,7 @@ export const Home = () => {
             
               <div id="projects" className="pb-8">
                   <h5 className='text-2xl font-medium mb-2'>Projects</h5>
-                  <p className="">Links to my works can be found on my <a href="./Portfolio.js" className='font-medium text-white opacity-90'> {portfolio}</a> </p>
+                  <p className="">Links to my works can be found on my <Link to="/project" className='font-medium text-white opacity-90'> {portfolio}</Link> </p>
               </div>
             </div>
         </div>
