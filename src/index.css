@@ -87,4 +87,12 @@
             opacity: 1;
         }
     }
+
+    form span{
+        transition: 0.5s;
+    }
+
+    form input:focus ¬ span{
+        transform: translateY(-32px);
+    }
 }

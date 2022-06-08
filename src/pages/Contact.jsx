@@ -42,7 +42,7 @@ export const Contact = () => {
                   {/* message textarea */}
                   <textarea name="message" className="font-semibold sm:text-xl bg-transparent border-0 rounded pt-4 px-2 border-light-grey border-b-2 w-full" id="message" rows="2" cols="40" placeholder="Write your Message here" required></textarea>
                   {/* Send button */}
-                  <button className='bg-light-grey/50 hover:bg-light-grey/20 font-semibold text-lg sm:text-xl cursor-pointer py-2 sm:py-3 w-32 sm:w-40 mx-auto rounded-xl my-8' type="submit">Send</button>
+                  <button className='bg-light-grey/40 hover:bg-light-grey/20 font-semibold text-lg sm:text-xl cursor-pointer py-2 sm:py-3 w-32 sm:w-40 mx-auto rounded-xl my-8' type="submit">Send</button>
                   
                 </form>
                 {/* success text */}
