@@ -1,5 +1,5 @@
 import { Home } from "./pages/Home";
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
 import { Project } from "./pages/Project";
 import { Contact } from "./pages/Contact";
 import { useEffect, useState } from "react";
@@ -30,13 +30,13 @@ function App() {
             {/* nav links */}
             <ul className="menu flex flex-col justify-center lg:justify-end lg:flex-row font-medium items-center text-xl text-center min-h-screen lg:min-h-fit gap-6">
               <li id="home" className="relative text-light-grey text-xl hover:text-white" onClick={() => setMenuDisplay(prevValue => !prevValue)}>
-                <Link to="/">Home </Link>
+                <NavLink to="/">Home </NavLink>
               </li>
               <li id="portfolio" className="relative text-light-grey text-xl hover:text-white" onClick={() => setMenuDisplay(prevValue => !prevValue)}>
-                <Link to="/project">Portfolio </Link>
+                <NavLink to="/project">Portfolio </NavLink>
               </li>
               <li id="contact" className="relative text-light-grey text-xl hover:text-white" onClick={() => setMenuDisplay(prevValue => !prevValue)}>
-                <Link to="/contact">Contact</Link>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
               {/* social media links */}
               <section className="lg:hidden">

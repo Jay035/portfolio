@@ -32,7 +32,7 @@ export const Home = () => {
   
   return (
     <div className='bg-blackk text-light-grey z-0 relative'>
-        <section data-aos="fade-in" data-aos-duration="3000" id='hero' className='bg-hero-img w-full h-[90vh] sm:h-[100vh] bg-no-repeat bg-center bg-black-300 bg-blend-multiply bg-cover'>
+        <section data-aos="fade-in" data-aos-duration="3000" id='hero' className='bg-hero-img w-full h-screen bg-no-repeat bg-center bg-black-300 bg-blend-multiply bg-cover'>
           {/* text */}
           <div data-aos="zoom-out" data-aos-duration="1000" className="relative h-4/5 text-center w-11/12 max-w-[800px] mx-auto leading-loose sm:ml-10 sm:text-left top-48 sm:top-72 xl:ml-20">
             <h1 className='text-2xl text-white font-semibold mb-2 sm:text-4xl xl:text-5xl'>Hello, I'm <span ref={el}></span></h1>
@@ -60,17 +60,60 @@ export const Home = () => {
 
         {/* ============= ABOUT ME =================== */}
 
-        <section data-aos="fade-up" data-aos-duration="4000" data-aos-easing="ease" id="about-me" className='w-[90%] mx-auto leading-7 pt-4 max-w-[1300px]'>
-          <h1 className='text-3xl sm:text-4xl font-semibold text-center pt-8 pb-10'>{aboutHeading}</h1>
-          <div className="about-sections grid lg:grid-cols-2 lg:gap-16 text-base sm:text-lg">
+        <section data-aos="fade-in" data-aos-duration="4000" data-aos-easing="ease" id="about-me" className='w-[90%] mx-auto leading-7 pt-16 max-w-[1000px]'>
+          <h1 className='text-3xl sm:text-4xl font-semibold text-center mt-8 pb-10'>{aboutHeading}</h1>
+          <div className="about-sections grid text-base sm:text-lg">
               {/* LEFT COLUMN  */}
-            <div className="left-col text-lg xl:text-xl sm:font-normal">
+            <div className="text-lg xl:text-xl sm:font-normal">
               <h3 className='text-2xl xl:text-3xl mb-2 font-medium'>Hello, I'm <span className='text-white opacity-90'>Chibuike Ukandu.</span></h3>
               <p className=''>I'm an enthusiastic Frontend developer, an ardent believer in continuous learning of both technical and soft skills
                to improve my ability to deliver great software solutions with the best user experience. Whether it's a project, job opportunity, 
                or just a chat, feel free to contact me.</p>
 
-               {/* EDUCATION */}
+              {/* SKILLS */}
+               <div id="skills" className="my-8">
+                <h5 className='text-2xl sm:text-3xl font-semibold mb-2'>Skills</h5>
+                <div className="">
+                  {/* <p className='text-lg font-medium opacity-80'> // These are the technologies I've worked with</p> */}
+                  <ul className='mt-8 grid grid-cols-3 sm:grid-cols-5 gap-12 px-4 text-center'>
+                    <li className='flex flex-col items-center font-medium cursor-default'>
+                      <i className="ri-html5-fill text-3xl mb-2"></i>
+                      HTML
+                    </li>
+                    <li className='flex flex-col items-center font-medium cursor-default'>
+                      <i className="ri-css3-fill text-3xl mb-2"></i>
+                      CSS
+                    </li>
+                    <li className='flex flex-col items-center font-medium cursor-default'>
+                      <img src={sassIcon} alt="" className='mb-2 w-[2.25rem]' />
+                      SCSS/SASS
+                    </li>
+                    <li className='flex flex-col items-center font-medium cursor-default'>
+                      <img src={bootstrapIcon} alt="" className='mb-2 w-[2.25rem]' />
+                      BOOTSTRAP
+                    </li>
+                    <li className='flex flex-col items-center font-medium cursor-default'>
+                      <i className="ri-github-fill text-3xl mb-2"></i>
+                      GITHUB
+                    </li>
+                    <li className='flex flex-col items-center font-medium cursor-default'>
+                      <img src={tailwindcssIcon} alt="" className='mb-2 w-[2.25rem] '/>
+                      TAILWINDCSS
+                    </li>
+                    <li className='flex flex-col items-center font-medium cursor-default'>
+                      <img src={javascriptIcon} alt="" className='mb-2 w-[2.25rem]'/>
+                      JAVASCRIPT
+                    </li>
+                    
+                    <li className='flex flex-col items-center font-medium cursor-default'>
+                      <i className="ri-reactjs-line text-3xl mb-2"></i>
+                      REACT JS
+                      </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* EDUCATION */}
               <div className="my-8">
                 <h5 className='text-2xl lg:text-3xl font-semibold mb-2'>Education</h5>
                 <ul className='list-disc pl-9 pb-2'>
@@ -90,6 +133,11 @@ export const Home = () => {
                     <p className='text-lg font-medium'>2020</p>
                   </li>
                 </ul>
+              </div>
+
+              <div id="projects" className="pb-8">
+                  <h5 className='text-2xl font-medium mb-2'>Projects</h5>
+                  <p className="">Links to my works can be found on my <Link to="/project" className='font-medium text-white opacity-90'> {portfolio}</Link> </p>
               </div>
             </div> 
 
@@ -115,52 +163,7 @@ export const Home = () => {
                       <li>Innovation Growth Hub Fellowship &nbsp;<a href={IGHub} className="font-medium text-white">View</a> </li>
                   </ul>
               </div> */}
-              <div id="skills" className="my-8 lg:mt-0">
-                <h5 className='text-2xl sm:text-3xl font-semibold mb-2'>Skills</h5>
-                <div className="">
-                  {/* <p className='text-lg font-medium opacity-80'> // These are the technologies I've worked with</p> */}
-                  <ul className='mt-8 flex flex-wrap gap-14 pl-4'>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-html5-fill text-4xl mb-2"></i>
-                      HTML
-                    </li>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-css3-fill text-4xl mb-2"></i>
-                      CSS
-                    </li>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={sassIcon} alt="" className='mb-2 w-[2.25rem]' />
-                      SCSS/SASS
-                    </li>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={bootstrapIcon} alt="" className='mb-2 w-[2.25rem]' />
-                      BOOTSTRAP
-                    </li>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-github-fill text-4xl mb-2"></i>
-                      GITHUB
-                    </li>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={tailwindcssIcon} alt="" className='mb-2 w-[2.25rem] '/>
-                      TAILWINDCSS
-                    </li>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={javascriptIcon} alt="" className='mb-2 w-[2.25rem]'/>
-                      JAVASCRIPT
-                    </li>
-                    
-                    <li className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-reactjs-line text-4xl mb-2"></i>
-                      REACT JS
-                      </li>
-                  </ul>
-                </div>
-              </div>
-            
-              <div id="projects" className="pb-8">
-                  <h5 className='text-2xl font-medium mb-2'>Projects</h5>
-                  <p className="">Links to my works can be found on my <Link to="/project" className='font-medium text-white opacity-90'> {portfolio}</Link> </p>
-              </div>
+              
             </div>
         </div>
         </section>

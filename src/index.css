@@ -19,6 +19,9 @@
         scroll-behavior: smooth;
     }
     /* nav links */
+    .active{
+        color: #fff;
+    }
     .menu li::before{
         content: '';
         position: absolute;
