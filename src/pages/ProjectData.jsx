@@ -163,8 +163,8 @@ export const AllWorks = [
         image: socialProofImg,
         title: "Social proof section",
         subTitle: 'Frontendmentor challenge',
-        githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/social-proof-section-master",
-        demoURL: "https://jay035.github.io/social-proof-section-master/",
+        githubURL: "https://github.com/Jay035/social-proof-section",
+        demoURL: "https://jay035.github.io/social-proof-section/",
         imagePosition: "object-[35%]",
     },
     {
@@ -172,8 +172,8 @@ export const AllWorks = [
         image: chatImg,
         title: "Chat app Illustration",
         subTitle: 'Frontendmentor challenge',
-        githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/chat-app-css-illustration-master",
-        demoURL: "https://jay035.github.io/chat-app-css-illustration-master/",
+        githubURL: "https://github.com/Jay035/chat-app-css-illustration",
+        demoURL: "https://jay035.github.io/chat-app-css-illustration/",
         imagePosition: "object-center",
     },
     {

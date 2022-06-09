@@ -32,7 +32,7 @@ export const Home = () => {
   
   return (
     <div className='bg-blackk text-light-grey z-0 relative'>
-        <section data-aos="fade-in" data-aos-duration="3000" id='hero' className='bg-hero-img w-full h-screen bg-no-repeat bg-center bg-black-300 bg-blend-multiply bg-cover'>
+        <section data-aos="fade-in" data-aos-duration="3000" id='hero' className='bg-hero-img w-full h-screen sm:h-[90vh] bg-no-repeat bg-center bg-black-300 bg-blend-multiply bg-cover'>
           {/* text */}
           <div data-aos="zoom-out" data-aos-duration="1000" className="relative h-4/5 text-center w-11/12 max-w-[800px] mx-auto leading-loose sm:ml-10 sm:text-left top-48 sm:top-72 xl:ml-20">
             <h1 className='text-2xl text-white font-semibold mb-2 sm:text-4xl xl:text-5xl'>Hello, I'm <span ref={el}></span></h1>
@@ -40,18 +40,18 @@ export const Home = () => {
             {/* buttons */}
             <div className="sm:w-4/5 sm:flex justify-center items-center gap-12 sm:gap-4 mt-12 sm:justify-start">
               {/* contact */}
-              <button className="block cursor-auto bg-button-black p-2 w-2/5 mx-auto sm:mx-0 my-2 text-white font-semibold hover:bg-[#505052] sm:py-4">
+              <button className="block cursor-auto bg-button-black p-2 w-1/2 sm:w-2/5 mx-auto sm:mx-0 my-2 text-white font-semibold hover:bg-[#505052] sm:py-4">
                 <Link to="/contact" className='py-4 px-4 text-lg sm:text-xl xl:text-xl' href="/src/pages/Contact.js">
                   Hire Me
                 </Link>
               </button>
               {/* GET CV  */}
-              <button className="block cursor-auto bg-button-black p-2 w-2/5 mx-auto sm:mx-0 my-2 text-white font-semibold hover:bg-[#505052] sm:py-4">
+              <button className="block cursor-auto bg-button-black p-2 w-1/2 sm:w-2/5 mx-auto sm:mx-0 my-2 text-white font-semibold hover:bg-[#505052] sm:py-4">
                 <a className='py-4 px-4 text-lg sm:text-xl xl:text-xl' href={cv} download >Get CV</a>
               </button>
             </div>
           </div>
-          <a href="#about-me" className='arrow relative top-20 w-fit mx-auto flex'>
+          <a href="#about-me" className='arrow w-fit mx-auto flex'>
             <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#a5a5a8" className="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
               <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
             </svg>
@@ -64,7 +64,7 @@ export const Home = () => {
           <h1 className='text-3xl sm:text-4xl font-semibold text-center mt-8 pb-10'>{aboutHeading}</h1>
           <div className="about-sections grid text-base sm:text-lg">
               {/* LEFT COLUMN  */}
-            <div className="text-lg xl:text-xl sm:font-normal">
+            <div className="xl:text-xl sm:font-normal text-base">
               <h3 className='text-2xl xl:text-3xl mb-2 font-medium'>Hello, I'm <span className='text-white opacity-90'>Chibuike Ukandu.</span></h3>
               <p className=''>I'm an enthusiastic Frontend developer, an ardent believer in continuous learning of both technical and soft skills
                to improve my ability to deliver great software solutions with the best user experience. Whether it's a project, job opportunity, 
@@ -75,46 +75,46 @@ export const Home = () => {
                 <h5 className='text-2xl sm:text-3xl font-semibold mb-2'>Skills</h5>
                 <div className="">
                   {/* <p className='text-lg font-medium opacity-80'> // These are the technologies I've worked with</p> */}
-                  <ul className='mt-8 grid grid-cols-3 sm:grid-cols-5 gap-12 px-4 text-center'>
+                  <ul className='mt-8 flex flex-wrap gap-5 px-4 text-center'>
                     <li className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-html5-fill text-3xl mb-2"></i>
-                      HTML
+                      <i className="ri-html5-fill hidden md:inline-block text-3xl mb-2"></i>
+                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>HTML</span>
                     </li>
                     <li className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-css3-fill text-3xl mb-2"></i>
-                      CSS
+                      <i className="ri-css3-fill hidden md:inline-block text-3xl mb-2"></i>
+                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>CSS</span>
                     </li>
                     <li className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={sassIcon} alt="" className='mb-2 w-[2.25rem]' />
-                      SCSS/SASS
+                      <img src={sassIcon} alt="" className=' hidden md:inline-block mb-2 w-[2.25rem]' />
+                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>SCSS/SASS</span>
                     </li>
                     <li className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={bootstrapIcon} alt="" className='mb-2 w-[2.25rem]' />
-                      BOOTSTRAP
+                      <img src={bootstrapIcon} alt="" className='hidden md:inline-block mb-2 w-[2.25rem]' />
+                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>BOOTSTRAP</span>
                     </li>
                     <li className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-github-fill text-3xl mb-2"></i>
-                      GITHUB
+                      <i className="ri-github-fill hidden md:inline-block text-3xl mb-2"></i>
+                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>GITHUB</span>
                     </li>
                     <li className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={tailwindcssIcon} alt="" className='mb-2 w-[2.25rem] '/>
-                      TAILWINDCSS
+                      <img src={tailwindcssIcon} alt="" className='hidden md:inline-block mb-2 w-[2.25rem] '/>
+                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>TAILWINDCSS</span>
                     </li>
                     <li className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={javascriptIcon} alt="" className='mb-2 w-[2.25rem]'/>
-                      JAVASCRIPT
+                      <img src={javascriptIcon} alt="" className='hidden md:inline-block mb-2 w-[2.25rem]'/>
+                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>JAVASCRIPT</span>
                     </li>
                     
                     <li className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-reactjs-line text-3xl mb-2"></i>
-                      REACT JS
+                      <i className="ri-reactjs-line hidden md:inline-block text-3xl mb-2"></i>
+                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>REACT JS</span>
                       </li>
                   </ul>
                 </div>
               </div>
 
               {/* EDUCATION */}
-              <div className="my-8">
+              <div className="mt-12 mb-8">
                 <h5 className='text-2xl lg:text-3xl font-semibold mb-2'>Education</h5>
                 <ul className='list-disc pl-9 pb-2'>
                   <li className='cursor-default pb-2'>
