@@ -32,7 +32,7 @@ export const Home = () => {
   
   return (
     <div className='bg-blackk text-light-grey z-0 relative'>
-        <section data-aos="fade-in" data-aos-duration="3000" id='hero' className='bg-hero-img w-full h-screen sm:h-[90vh] bg-no-repeat bg-center bg-black-300 bg-blend-multiply bg-cover'>
+        <section data-aos="fade-in" data-aos-duration="3000" id='hero' className='bg-hero-img w-full h-screen sm:h-[90vh] md:h-screen bg-no-repeat bg-center bg-black-300 bg-blend-multiply bg-cover'>
           {/* text */}
           <div data-aos="zoom-out" data-aos-duration="1000" className="relative h-4/5 text-center w-11/12 max-w-[800px] mx-auto leading-loose sm:ml-10 sm:text-left top-48 sm:top-72 xl:ml-20">
             <h1 className='text-2xl text-white font-semibold mb-2 sm:text-4xl xl:text-5xl'>Hello, I'm <span ref={el}></span></h1>
@@ -51,7 +51,7 @@ export const Home = () => {
               </button>
             </div>
           </div>
-          <a href="#about-me" className='arrow w-fit mx-auto flex'>
+          <a href="#about-me" className='arrow w-fit md:mt-16 mx-auto flex'>
             <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#a5a5a8" className="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
               <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
             </svg>
@@ -75,7 +75,7 @@ export const Home = () => {
                 <h5 className='text-2xl sm:text-3xl font-semibold mb-2'>Skills</h5>
                 <div className="">
                   {/* <p className='text-lg font-medium opacity-80'> // These are the technologies I've worked with</p> */}
-                  <ul className='mt-8 flex flex-wrap gap-5 px-4 text-center'>
+                  <ul className='mt-8 flex flex-wrap md:grid md:grid-cols-5 md:gap-12 gap-5 px-4 text-center'>
                     <li className='flex flex-col items-center font-medium cursor-default'>
                       <i className="ri-html5-fill hidden md:inline-block text-3xl mb-2"></i>
                       <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>HTML</span>
