@@ -1,4 +1,5 @@
 import travelJournalImg from '../components/assets/travel-journal.png';
+import timeTrackingDashboard from '../components/assets/time-tracking-dashboard.png';
 import memeGeneratorImg from '../components/assets/meme-generator.png';
 import adviceGeneratorImg from '../components/assets/advice-generator.jpg';
 import portfolioImg from '../components/assets/portfolio.png';
@@ -52,6 +53,15 @@ export const AllWorks = [
     },
     {
         id: 4,
+        image: timeTrackingDashboard,
+        title: "Time Tracking Dashboard",
+        subTitle: 'Frontendmentor challenge',
+        githubURL: "https://github.com/Jay035/Time-tracking-dashboard",
+        demoURL: "https://jay035.github.io/Time-tracking-dashboard/",
+        imagePosition: "object-center",
+    },
+    {
+        id: 5,
         image: interactiveRatingImg,
         title: "Interactive Rating Component",
         subTitle: 'Frontendmentor challenge',
@@ -60,7 +70,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 5,
+        id: 6,
         image: adviceGeneratorImg,
         title: "Advice Generator",
         subTitle: 'Frontendmentor challenge',
@@ -69,7 +79,7 @@ export const AllWorks = [
         imagePosition: "object-center"
     },
     {
-        id: 6,
+        id: 7,
         image: todoApp,
         title: "Todo app",
         subTitle: 'Frontendmentor challenge',
@@ -78,7 +88,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 7,
+        id: 8,
         image: ecommerceImg,
         title: "ECommerce product page",
         subTitle: 'Frontendmentor challenge',
@@ -87,7 +97,7 @@ export const AllWorks = [
         imagePosition: "object-[40%]",
     },
     {
-        id: 8,
+        id: 9,
         image: calculatorImg,
         title: "Calculator app",
         subTitle: 'Frontendmentor challenge',
@@ -96,7 +106,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 9,
+        id: 10,
         image: socialMediaDashboard,
         title: "Social Media Dashboard",
         subTitle: 'Frontendmentor challenge',
@@ -105,7 +115,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 10,
+        id: 11,
         image: launchCountdownImg,
         title: "Launch countdown timer",
         subTitle: 'Frontendmentor Challenge',
@@ -114,7 +124,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 11,
+        id: 12,
         image: introSectionImg,
         title: "Intro Section",
         subTitle: 'Frontendmentor Challenge',
@@ -132,7 +142,7 @@ export const AllWorks = [
         imagePosition: "object-[20%]",
     },
     {
-        id: 20,
+        id: 14,
         image: fyloLandingPage,
         title: "Fylo landing page",
         subTitle: 'Frontendmentor Challenge',
@@ -141,7 +151,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 21,
+        id: 15,
         image: counterImg,
         title: "Counter",
         subTitle: 'Task by SideHustle internship',
@@ -150,7 +160,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 22,
+        id: 16,
         image: dashboardImg,
         title: "ECare Doctor's dashboard",
         subTitle: 'Task by ZURI Internship',
@@ -159,7 +169,7 @@ export const AllWorks = [
         imagePosition: "object-left",
     },
     {
-        id: 23,
+        id: 17,
         image: socialProofImg,
         title: "Social proof section",
         subTitle: 'Frontendmentor challenge',
@@ -168,7 +178,7 @@ export const AllWorks = [
         imagePosition: "object-[35%]",
     },
     {
-        id: 24,
+        id: 18,
         image: chatImg,
         title: "Chat app Illustration",
         subTitle: 'Frontendmentor challenge',
@@ -177,7 +187,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 25,
+        id: 19,
         image: columnCardImg,
         title: "3 Column card",
         subTitle: 'Frontendmentor challenge',
@@ -219,6 +229,15 @@ export const ReactJSWorks = [
     },
     {
         id: 4,
+        image: timeTrackingDashboard,
+        title: "Time Tracking Dashboard",
+        subTitle: 'Frontendmentor challenge',
+        githubURL: "https://github.com/Jay035/Time-tracking-dashboard",
+        demoURL: "https://jay035.github.io/Time-tracking-dashboard/",
+        imagePosition: "object-left",
+    },
+    {
+        id: 5,
         image: interactiveRatingImg,
         title: "Interactive Rating Component",
         subTitle: 'Frontendmentor challenge',

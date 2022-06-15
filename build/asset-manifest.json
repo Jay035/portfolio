@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cc23c373.css",
-    "main.js": "/static/js/main.761715db.js",
+    "main.js": "/static/js/main.944c8774.js",
     "static/media/contact.jpg": "/static/media/contact.7e6b0b94fd45e40566ba.jpg",
     "static/media/Chibuike_Ukandu_ CV.pdf": "/static/media/Chibuike_Ukandu_ CV.d8697e47d61f8d7027f0.pdf",
     "static/media/dashboard.png": "/static/media/dashboard.abc22b7fe12a35fb0895.png",
@@ -11,6 +11,7 @@
     "static/media/advice-generator.jpg": "/static/media/advice-generator.bd372577d35c4ff20a55.jpg",
     "static/media/sunnyside-landing-page.jpg": "/static/media/sunnyside-landing-page.f676005a14ca4aec61a0.jpg",
     "static/media/social-proof.jpg": "/static/media/social-proof.63dc6af13e71ad9a28b3.jpg",
+    "static/media/time-tracking-dashboard.png": "/static/media/time-tracking-dashboard.4a0e01b69a8239d48b61.png",
     "static/media/ecommerce.jpg": "/static/media/ecommerce.3b6a560ebbc87c939f7b.jpg",
     "static/media/intro-section.jpg": "/static/media/intro-section.c54f50fe6ca494fe2e2f.jpg",
     "static/media/fylo-landing-page.jpg": "/static/media/fylo-landing-page.8fffd77f4847c168b296.jpg",
@@ -28,10 +29,10 @@
     "static/media/counter.png": "/static/media/counter.10294df98b4002efa9ad.png",
     "index.html": "/index.html",
     "main.cc23c373.css.map": "/static/css/main.cc23c373.css.map",
-    "main.761715db.js.map": "/static/js/main.761715db.js.map"
+    "main.944c8774.js.map": "/static/js/main.944c8774.js.map"
   },
   "entrypoints": [
     "static/css/main.cc23c373.css",
-    "static/js/main.761715db.js"
+    "static/js/main.944c8774.js"
   ]
 }

@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 
 function App() {
   const [menuDisplay, setMenuDisplay] = useState(false);
-  const [bg, setBg] = useState(true);
+  const [bg, setBg] = useState(true); 
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
