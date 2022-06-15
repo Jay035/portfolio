@@ -71,7 +71,7 @@ function App() {
           
         </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
           {/* <Route path="*" element={<ErrorPage />} /> */}
