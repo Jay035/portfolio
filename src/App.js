@@ -4,7 +4,7 @@ import { Project } from "./pages/Project";
 import { Contact } from "./pages/Contact";
 import { useEffect, useState } from "react";
 import logo from './components/assets/logo.png';
-import AOS from 'aos';
+import AOS from 'aos'; 
 import 'aos/dist/aos.css';
 // import { motion } from "framer-motion";
 
