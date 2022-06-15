@@ -6,7 +6,7 @@ LIVE LINK https://codexjay.netlify.app/
 
 ## Dependencies
 
-### TailwindCSS
+### [TailwindCss](https://tailwindcss.com/)
 ### AOS
 ### EmailJS
 ### React-Router
