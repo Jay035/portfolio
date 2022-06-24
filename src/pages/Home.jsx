@@ -144,8 +144,8 @@ export const Home = () => {
             
 
             {/* RIGHT COLUMN */}
-            <div className="">
-              {/* <div id="certificates" className="my-4">
+            {/* <div className="">
+              <div id="certificates" className="my-4">
                   <h5 className='text-2xl font-medium mb-2'>Certifications</h5>
                   <ul className='list-disc pl-9'>
                       <li>Side Hustle Internship &nbsp;<a href={SHI} className="font-medium text-white">View</a> </li>
@@ -162,9 +162,9 @@ export const Home = () => {
                         </li>
                       <li>Innovation Growth Hub Fellowship &nbsp;<a href={IGHub} className="font-medium text-white">View</a> </li>
                   </ul>
-              </div> */}
+              </div>
               
-            </div>
+            </div> */}
         </div>
         </section>
         

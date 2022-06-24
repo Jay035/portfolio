@@ -13,7 +13,6 @@ export const Card = ({item}) => {
         </a>
         <div className="mt-3">
             <p className="text-xl font-semibold">{item.title} </p>
-            {/* <p className="">{item.description}</p> */}
             <p className="text-base font-normal">{item.subTitle}</p>
             
             <div className="flex gap-6 mt-4">

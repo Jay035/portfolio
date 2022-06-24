@@ -13,10 +13,8 @@ export const Contact = () => {
     .then((result) => {
       setSuccessTextState(!successTextState)
       e.target.reset();
-      // setEmailText('flex');
     }, (error) => {
-        // setErrorText('flex');
-        setErrorTextState(!errorTextState)
+      setErrorTextState(!errorTextState)
     });
   };
 

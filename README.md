@@ -1,6 +1,6 @@
 # My Portfolio website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It was also built with [TailwindCss](https://tailwindcss.com/)
+This project was built with [React](https://reactjs.org) and [TailwindCss](https://tailwindcss.com/)
 
 LIVE LINK https://codexjay.vercel.app/
 
