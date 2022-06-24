@@ -80,7 +80,7 @@ export const Project = () => {
                 <p className='font-medium text-lg'>Below are my works</p>
                 {/* buttons */}
                 <ul className="flex gap-x-8 gap-y-3 overflow-x-hidden flex-wrap w-full mx-auto mt-8">
-                    {list.map(item => (
+                    {list.map(item => (                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
                         <ProjectList 
                             key={item.id}
                             id={item.id} 

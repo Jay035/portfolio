@@ -4,13 +4,13 @@ import { Project } from "./pages/Project";
 import { Contact } from "./pages/Contact";
 import { useEffect, useState } from "react";
 import logo from './components/assets/logo.png';
-import AOS from 'aos'; 
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 // import { motion } from "framer-motion";
 
 function App() {
   const [menuDisplay, setMenuDisplay] = useState(false);
-  const [bg, setBg] = useState(true); 
+  const [bg, setBg] = useState(true);
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -71,7 +71,7 @@ function App() {
           
         </nav>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
           {/* <Route path="*" element={<ErrorPage />} /> */}

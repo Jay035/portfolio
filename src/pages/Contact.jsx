@@ -3,19 +3,21 @@ import emailjs from 'emailjs-com'
 
 export const Contact = () => {
   const form = useRef();
-  const [emailText, setEmailText] = useState('hidden');
-  const [errorText, setErrorText] = useState('hidden');
+  const [successTextState, setSuccessTextState] = useState(false);
+  const [errorTextState, setErrorTextState] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_jlir4dq', 'template_5eq0z9y', form.current, 'bwyiATuNnSOuFvfU8')
     .then((result) => {
-      setEmailText('flex');
+      setSuccessTextState(!successTextState)
+      e.target.reset();
+      // setEmailText('flex');
     }, (error) => {
-        setErrorText('flex');
+        // setErrorText('flex');
+        setErrorTextState(!errorTextState)
     });
-    e.target.reset();
   };
 
   return (
@@ -46,13 +48,13 @@ export const Contact = () => {
                   
                 </form>
                 {/* success text */}
-                <div data-aos="fade-in" data-aos-duration="1000" className={`success-text text-xl font-semibold ${emailText} justify-center items-center`}>SENT. I'll get back to you as soon as possible</div>
+                {/* <div data-aos="fade-in" data-aos-duration="1000" className={`success-text text-xl font-semibold ${emailText} justify-center items-center`}>SENT. I'll get back to you as soon as possible</div> */}
                 {/* error text */}
-                <div data-aos="fade-in" data-aos-duration="1000" className={`error-text text-xl font-semibold ${errorText} justify-center items-center`}>Uhmm, couldn't send. Kindly check your internet connection</div>
+                {/* <div data-aos="fade-in" data-aos-duration="1000" className={`error-text text-xl font-semibold ${errorText} justify-center items-center`}>Uhmm, couldn't send. Kindly check your internet connection</div> */}
               </section>
             </div>
           </div>
-          {/* contentt-right */}
+          {/* content-right */}
           <div className="py-4 sm:text-xl">
             <p className="hidden sm:inline-block">I will love to hear from you. Whether it's a project, job opportunity or just a chat, feel free to contact me.</p>
             <p className="pt-4 "><span className='text-lg sm:text-2xl font-semibold'>Phone</span><br />
@@ -61,6 +63,16 @@ export const Contact = () => {
           </div>
             
         </div>
+      </div>
+      {/* Success Feedback message  */}
+      <div className={`${successTextState ? `flex` : `hidden` } transition-all text-xl font-semibold absolute top-4 right-1 flex-col bg-green-400/95 text-white gap-2 p-3 rounded-md w-3/4 max-w-sm`}>
+        <i onClick={() => setSuccessTextState(!successTextState)} className={`ri-close-line flex justify-end text-white hover:text-white/50 text-4xl cursor-pointer`}></i>
+        <span>Thank you for getting in touch. I'll get back to you as soon as possible.</span>
+      </div>
+      {/* error feedback message */}
+      <div className={`${errorTextState ? `flex` : `hidden`} transition-all text-xl font-semibold absolute top-4 right-1 flex-col bg-red-400/95 text-white gap-2 p-3 rounded-md w-3/4 max-w-sm`}>
+        <i onClick={() => setErrorTextState(!errorTextState)} className={`ri-close-line flex justify-end text-white hover:text-white/50 text-4xl cursor-pointer`}></i>
+        <span>Something went wrong. Please check your internet connection</span>
       </div>
     </main>
   )
