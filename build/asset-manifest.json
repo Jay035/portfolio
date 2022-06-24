@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2692af2.css",
-    "main.js": "/static/js/main.cd032354.js",
+    "main.css": "/static/css/main.a69422a4.css",
+    "main.js": "/static/js/main.13f2b442.js",
     "static/media/contact.jpg": "/static/media/contact.7e6b0b94fd45e40566ba.jpg",
     "static/media/Chibuike_Ukandu_ CV.pdf": "/static/media/Chibuike_Ukandu_ CV.d8697e47d61f8d7027f0.pdf",
     "static/media/dashboard.png": "/static/media/dashboard.abc22b7fe12a35fb0895.png",
@@ -28,11 +28,11 @@
     "static/media/interactive-rating.jpg": "/static/media/interactive-rating.e216cabf51047ff9ba7d.jpg",
     "static/media/counter.png": "/static/media/counter.10294df98b4002efa9ad.png",
     "index.html": "/index.html",
-    "main.c2692af2.css.map": "/static/css/main.c2692af2.css.map",
-    "main.cd032354.js.map": "/static/js/main.cd032354.js.map"
+    "main.a69422a4.css.map": "/static/css/main.a69422a4.css.map",
+    "main.13f2b442.js.map": "/static/js/main.13f2b442.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2692af2.css",
-    "static/js/main.cd032354.js"
+    "static/css/main.a69422a4.css",
+    "static/js/main.13f2b442.js"
   ]
 }

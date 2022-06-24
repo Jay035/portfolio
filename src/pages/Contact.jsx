@@ -63,12 +63,12 @@ export const Contact = () => {
         </div>
       </div>
       {/* Success Feedback message  */}
-      <div className={`${successTextState ? `flex` : `hidden` } transition-all text-xl font-semibold absolute top-4 right-1 flex-col bg-green-400/95 text-white gap-2 p-3 rounded-md w-3/4 max-w-sm`}>
+      <div className={`${successTextState ? `flex` : `hidden` } transition-all text-xl font-semibold absolute top-4 right-3 flex-col bg-green-400/95 text-white gap-2 p-3 rounded-md w-3/4 max-w-md`}>
         <i onClick={() => setSuccessTextState(!successTextState)} className={`ri-close-line flex justify-end text-white hover:text-white/50 text-4xl cursor-pointer`}></i>
         <span>Thank you for getting in touch. I'll get back to you as soon as possible.</span>
       </div>
       {/* error feedback message */}
-      <div className={`${errorTextState ? `flex` : `hidden`} transition-all text-xl font-semibold absolute top-4 right-1 flex-col bg-red-400/95 text-white gap-2 p-3 rounded-md w-3/4 max-w-sm`}>
+      <div className={`${errorTextState ? `flex` : `hidden`} transition-all text-xl font-semibold absolute top-4 right-3 flex-col bg-red-400/95 text-white gap-2 p-3 rounded-md w-3/4 max-w-md`}>
         <i onClick={() => setErrorTextState(!errorTextState)} className={`ri-close-line flex justify-end text-white hover:text-white/50 text-4xl cursor-pointer`}></i>
         <span>Something went wrong. Please check your internet connection</span>
       </div>
