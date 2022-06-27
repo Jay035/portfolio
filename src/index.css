@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base{
+
     ::-webkit-scrollbar{
         width: 15px;
     }
@@ -18,6 +19,47 @@
     html{
         scroll-behavior: smooth;
     }
+
+    /* ------------------ PRELOADER ---------------------- */
+    #preloader{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+        max-height: 100vh;
+        width: 100%;
+        background-color: rgb(10, 10, 10);
+    }
+
+    #loading{
+        -webkit-animation: move-Through 1s infinite ease-in;
+        animation: move-Through 1s infinite ease-in;
+        height: 180vh;
+        width: 80%;
+        /* max-width: 500px; */
+        position: absolute;
+        top: -40%;
+        left: -5%;
+        transform: rotate(20deg);
+        background-color: rgb(165, 165, 168);
+        transition: animation .3s;
+    }
+
+    @keyframes move-Through {
+        0%{
+            left: 0;
+        }
+        100%{
+            left: 100%;
+        }
+    }
+
+    .hidden{
+        display: none;
+    }
+
     /* nav links */
     .active{
         color: #fff;
@@ -69,12 +111,12 @@
           }
     }
     /* success message  */
-    .success-text,
+    /* .success-text,
     .error-text{
         animation: animate 3s forwards;
-    }
+    } */
     
-    @keyframes animate{
+    /* @keyframes animate{
         0%,
         100%{
             opacity: 0;
@@ -86,5 +128,5 @@
         90%{
             opacity: 1;
         }
-    }
+    } */
 }

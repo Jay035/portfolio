@@ -11,15 +11,31 @@ import 'aos/dist/aos.css';
 function App() {
   const [menuDisplay, setMenuDisplay] = useState(false);
   const [bg, setBg] = useState(true);
+  const [loading, setLoading] = useState(true);
+  const preloader = document.getElementById('preloader');
+  
+  if(preloader){
+    setTimeout(() => {
+      preloader.classList.add("hidden");
+      setLoading(false);
+    },2000)
+  }
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
       return window.scrollY > 60 ? setBg(!bg) : setBg(bg)
     })
   }, [bg])
+
+  const displayPage = () => {
+    preloader.classList.remove("hidden");
+    setLoading(true);
+    setMenuDisplay(prevValue => !prevValue);
+  }
   AOS.init()
   return (
-    <Router>
+    !loading && (
+      <Router>
       <div className="App box-border bg-blackk h-full font-Montserrat">
         <nav className={`${bg ? 'bg-blackk' : 'bg-black/80'} fixed top-0 w-full flex justify-between items-center transition-all duration-300 z-10 p-6 sm:px-10`}>
           <div className="">
@@ -29,13 +45,13 @@ function App() {
           <div className={!menuDisplay ? `hidden lg:flex ` : `active absolute top-0 left-0 right-0 lg:top-7 lg:right-10 h-screen lg:h-0 z-50 transition bg-blackk`}>
             {/* nav links */}
             <ul className="menu flex flex-col justify-center lg:justify-end lg:flex-row font-medium items-center text-xl text-center min-h-screen lg:min-h-fit gap-6">
-              <li id="home" className="relative text-light-grey text-xl hover:text-white" onClick={() => setMenuDisplay(prevValue => !prevValue)}>
+              <li id="home" className="relative text-light-grey text-xl hover:text-white" onClick={ displayPage}>
                 <NavLink to="/">Home </NavLink>
               </li>
-              <li id="portfolio" className="relative text-light-grey text-xl hover:text-white" onClick={() => setMenuDisplay(prevValue => !prevValue)}>
+              <li id="portfolio" className="relative text-light-grey text-xl hover:text-white" onClick={ displayPage}>
                 <NavLink to="/project">Portfolio </NavLink>
               </li>
-              <li id="contact" className="relative text-light-grey text-xl hover:text-white" onClick={() => setMenuDisplay(prevValue => !prevValue)}>
+              <li id="contact" className="relative text-light-grey text-xl hover:text-white" onClick={ displayPage}>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
               {/* social media links */}
@@ -96,6 +112,7 @@ function App() {
         </footer>
       </div>
     </Router>
+    )
   );
 }
 
