@@ -22,42 +22,53 @@
 
     /* ------------------ PRELOADER ---------------------- */
     #preloader{
-        /* display: flex;
+        display: flex;
         justify-content: center;
-        align-items: center; */
-        position: relative;
+        align-items: center;
         height: 100vh;
         overflow: hidden;
-        max-height: 100vh;
         width: 100%;
         background-color: rgb(10, 10, 10);
     }
 
-    #loading{
-        -webkit-animation: move-Through 1s infinite ease-in;
-        animation: move-Through 1s infinite ease-in;
-        height: 180vh;
-        width: 80%;
-        /* max-width: 500px; */
-        position: absolute;
-        top: -40%;
-        left: -5%;
-        transform: rotate(20deg);
-        background-color: rgb(165, 165, 168);
-        transition: animation .3s;
+    #shape_1{
+        -webkit-animation: fade-In -0.5s linear 0.8s infinite alternate;
+        animation: fade-In -0.5s linear 0.8s infinite alternate;
     }
 
-    @keyframes move-Through {
+    #shape_2{
+        -webkit-animation: fade-In 0.7s linear 0.8s infinite alternate;
+        animation: fade-In 0.7s linear 0.8s infinite alternate;
+    }
+
+    @keyframes fade-In {
         0%{
-            left: 0;
+            opacity: 0;
         }
         100%{
-            left: 100%;
+            opacity: 1;
+        }
+    }
+
+    /* #loading_image{
+        -webkit-animation: scale--Up 2s infinite ease-in;
+        animation: scale--Up 2s infinite ease-in;
+        width: 60%;
+        max-width: 400px;
+        overflow: hidden;
+    } */
+
+    @keyframes scale--Up {
+        0%{
+            transform: scale(0.4);
+        }
+        100%{
+            transform: scale(1);
         }
     }
 
     .hidden{
-        display: none;
+        display: none !important;
     }
 
     /* nav links */
