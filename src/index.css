@@ -34,8 +34,8 @@
     }
 
     #preloader_img{
-        width: 25%;
-        max-width: 200px;
+        width: 20%;
+        max-width: 150px;
         -webkit-animation: fade-In -0.9s linear 0.8s infinite alternate;
         animation: fade-In -0.9s linear 0.8s infinite alternate;
         
