@@ -53,8 +53,12 @@
         }
     }
 
-    .hidden{
+    .preloder--hidden{
         display: none !important;
+    }
+
+    .flex{
+        display: flex;
     }
 
     /* nav links */
@@ -85,6 +89,11 @@
 
     .menu li#contact:hover::before{
         width: 3.6em;
+    }
+
+    .hamburger:hover > span{
+        width: 2rem;
+        transition: 0.3s ease-in;
     }
 
     button, li{

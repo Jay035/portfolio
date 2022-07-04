@@ -17,7 +17,7 @@ function App() {
   
   if(preloader){
     setTimeout(() => {
-      preloader.classList.add("hidden");
+      preloader.classList.add("preloder--hidden");
       setLoading(true);
     },2000)
   }
@@ -81,7 +81,7 @@ function App() {
 
           </div>
           {/* hamburger */}
-          <div onClick={() => setMenuDisplay(prevValue => !prevValue)} className="flex justify-between flex-col lg:hidden gap-1.5 cursor-pointer p-3 rounded-md hover:bg-white">
+          <div onClick={() => setMenuDisplay(prevValue => !prevValue)} className="hamburger flex justify-between flex-col lg:hidden gap-1.5 cursor-pointer p-3 rounded-md">
             <span className="justify-self-start w-5 h-0.5 bg-light-grey"></span>
             <span className="w-8 h-0.5 bg-light-grey"></span>
             <span className="ml-auto mr-0 w-5 h-0.5 bg-light-grey"></span>
