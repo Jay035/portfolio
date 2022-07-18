@@ -6,9 +6,9 @@ LIVE LINK https://codexjay.vercel.app/
 
 ## Dependencies
 
-### [TailwindCss](https://tailwindcss.com/)
-### AOS
-### EmailJS
-### React-Router
-### Typed.js
+#### [TailwindCss](https://tailwindcss.com/)
+#### AOS ( Animate On Scroll)
+#### EmailJS
+#### React-Router
+#### Typed.js
 
