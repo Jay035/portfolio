@@ -7,6 +7,7 @@ import logo from './components/assets/logo.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Footer } from "./Footer";
+import { ErrorPage } from "./pages/ErrorPage";
 // import { motion } from "framer-motion";
 
 function App() {
@@ -92,7 +93,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="*" element={<ErrorPage />} /> */}
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
 
         <Footer />

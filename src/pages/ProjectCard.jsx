@@ -2,13 +2,13 @@ import React from 'react'
 
 export const Card = ({item}) => {
   return (
-    <div className='my-4 w-full max-w-[500px]'>
+    <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200" className='my-4 w-full max-w-[500px]'>
         <a href={item.demoURL} className='relative mx-auto'>
             {/* <!-- screenshot --> */}
             <img className={`w-[30rem] object-cover ${item.imagePosition} mx-auto h-[16rem]`} src={item.image} alt="work screenshot" />
             {/* hover effect */}
             <div className="bg-blackk/75 absolute top-0 h-full w-full opacity-0 hover:opacity-100 flex justify-center items-center">
-                <h1 className='font-semibold text-white text-2xl'>{item.title}</h1>
+                <h1 className='font-semibold text-white text-2xl text-center'>{item.title}</h1>
             </div>
         </a>
         <div className="mt-3">

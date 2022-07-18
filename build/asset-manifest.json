@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.19ff21fc.css",
-    "main.js": "/static/js/main.bd958ca9.js",
+    "main.css": "/static/css/main.542d85bc.css",
+    "main.js": "/static/js/main.5d39f947.js",
+    "static/media/Chibuike_Ukandu_ CV.pdf": "/static/media/Chibuike_Ukandu_ CV.ef262ba29a69bb6e5ed3.pdf",
     "static/media/contact.jpg": "/static/media/contact.7e6b0b94fd45e40566ba.jpg",
-    "static/media/Chibuike_Ukandu_ CV.pdf": "/static/media/Chibuike_Ukandu_ CV.d8697e47d61f8d7027f0.pdf",
-    "static/media/dashboard.png": "/static/media/dashboard.abc22b7fe12a35fb0895.png",
     "static/media/meme-generator.png": "/static/media/meme-generator.ab8a9ef3ce9593b3d273.png",
     "static/media/portfolio.png": "/static/media/portfolio.f860e739bc8e4052da7b.png",
     "static/media/travel-journal.png": "/static/media/travel-journal.6e204f5dcd7045391c41.png",
+    "static/media/space-tourism-page.jpg": "/static/media/space-tourism-page.39201d67247771bd73d6.jpg",
     "static/media/advice-generator.jpg": "/static/media/advice-generator.bd372577d35c4ff20a55.jpg",
     "static/media/sunnyside-landing-page.jpg": "/static/media/sunnyside-landing-page.f676005a14ca4aec61a0.jpg",
-    "static/media/social-proof.jpg": "/static/media/social-proof.63dc6af13e71ad9a28b3.jpg",
     "static/media/time-tracking-dashboard.png": "/static/media/time-tracking-dashboard.4a0e01b69a8239d48b61.png",
     "static/media/ecommerce.jpg": "/static/media/ecommerce.3b6a560ebbc87c939f7b.jpg",
     "static/media/intro-section.jpg": "/static/media/intro-section.c54f50fe6ca494fe2e2f.jpg",
@@ -26,13 +25,12 @@
     "static/media/launch-countdown.jpg": "/static/media/launch-countdown.40bb4b7754467d37b2f1.jpg",
     "static/media/background.jpg": "/static/media/background.362707523e6762c737c0.jpg",
     "static/media/interactive-rating.jpg": "/static/media/interactive-rating.e216cabf51047ff9ba7d.jpg",
-    "static/media/counter.png": "/static/media/counter.10294df98b4002efa9ad.png",
     "index.html": "/index.html",
-    "main.19ff21fc.css.map": "/static/css/main.19ff21fc.css.map",
-    "main.bd958ca9.js.map": "/static/js/main.bd958ca9.js.map"
+    "main.542d85bc.css.map": "/static/css/main.542d85bc.css.map",
+    "main.5d39f947.js.map": "/static/js/main.5d39f947.js.map"
   },
   "entrypoints": [
-    "static/css/main.19ff21fc.css",
-    "static/js/main.bd958ca9.js"
+    "static/css/main.542d85bc.css",
+    "static/js/main.5d39f947.js"
   ]
 }

@@ -74,12 +74,12 @@ export const Project = () => {
     }, [selected])
 
     return (
-        <div id='portfolio' className='relative bg-blackk text-light-grey bg-portfolio-Bg h-full bg-top overflow-x-hidden mt-[5.3rem]'>
+        <div id='portfolio' data-aos="fade" data-aos-duration="3000" className='relative bg-blackk text-light-grey bg-portfolio-Bg h-full bg-top overflow-hidden mt-[5.3rem]'>
             <div data-aos="fade-in" data-aos-duration="3000" className="container px-8 max-w-[900px] xl:max-w-[1200px] mx-auto bg-blend-multiply bg-cover">
                 <h1 className='text-center text-3xl sm:text-4xl font-semibold pt-8 pb-10'>{portfolioHeading}</h1>
                 <p className='font-medium text-lg'>Below are my works</p>
                 {/* buttons */}
-                <ul className="flex gap-x-8 gap-y-3 overflow-x-hidden flex-wrap w-full mx-auto mt-8">
+                <ul data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500" className="flex gap-x-8 gap-y-3 overflow-x-hidden flex-wrap w-full mx-auto mt-8">
                     {list.map(item => (                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
                         <ProjectList 
                             key={item.id}
@@ -91,7 +91,7 @@ export const Project = () => {
                     ))}
                 </ul>
 
-                <section className='grid place-content-center sm:grid-cols-2 xl:grid-cols-3 gap-x-10 gap-y-6 items-center mt-10'>
+                <section data-aos="fade-up" data-aos-duration="3000" className='grid place-content-center sm:grid-cols-2 xl:grid-cols-3 gap-x-10 gap-y-6 items-center mt-10'>
                     {data.map(item => {
                         return(
                             <Card

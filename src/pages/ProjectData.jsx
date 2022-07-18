@@ -1,4 +1,5 @@
 import travelJournalImg from '../components/assets/travel-journal.png';
+import spaceTourismImg from '../components/assets/space-tourism-page.jpg';
 import timeTrackingDashboard from '../components/assets/time-tracking-dashboard.png';
 import memeGeneratorImg from '../components/assets/meme-generator.png';
 import adviceGeneratorImg from '../components/assets/advice-generator.jpg';
@@ -6,8 +7,8 @@ import portfolioImg from '../components/assets/portfolio.png';
 import calculatorImg from '../components/assets/calculator.jpg';
 import chatImg from '../components/assets/chat-app-illustration.jpg';
 import columnCardImg from '../components/assets/3-column-card.jpg';
-import counterImg from '../components/assets/counter.png';
-import dashboardImg from '../components/assets/dashboard.png';
+// import counterImg from '../components/assets/counter.png';
+// import dashboardImg from '../components/assets/dashboard.png';
 import ecommerceImg from '../components/assets/ecommerce.jpg';
 import fyloLandingPage from '../components/assets/fylo-landing-page.jpg';
 import HNGResumeImg from '../components/assets/HNG_Resume.png';
@@ -17,7 +18,7 @@ import introSectionImg from '../components/assets/intro-section.jpg';
 import launchCountdownImg from '../components/assets/launch-countdown.jpg';
 // import orderSummaryImg from '../components/assets/order-summary-component.jpg';
 import socialMediaDashboard from '../components/assets/social-media-dashboard.jpg';
-import socialProofImg from '../components/assets/social-proof.jpg';
+// import socialProofImg from '../components/assets/social-proof.jpg';
 import sunnysideLandingpage from '../components/assets/sunnyside-landing-page.jpg';
 // import testimonialsPageImg from '../components/assets/testimonials-page.png'
 import todoApp from '../components/assets/todo-app.jpg';
@@ -26,6 +27,15 @@ import todoApp from '../components/assets/todo-app.jpg';
 export const AllWorks = [
     {
         id: 1,
+        image: spaceTourismImg,
+        title: "Space Tourism website",
+        subTitle: 'FrontendMentor challenge',
+        githubURL: "https://github.com/Jay035/Space-tourism-Multi-page-website",
+        demoURL: "https://space-tourism-reactjs-website.netlify.app/",
+        imagePosition: "object-center",
+    },
+    {
+        id: 2,
         image: travelJournalImg,
         title: "Travel Journal",
         subTitle: 'Scrimba React JS challenge',
@@ -34,7 +44,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 2,
+        id: 3,
         image: memeGeneratorImg,
         title: "Meme Generator",
         subTitle: 'Scrimba react course challenge',
@@ -43,7 +53,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 3,
+        id: 4,
         image: portfolioImg,
         title: "Portfolio",
         subTitle: 'Personal project',
@@ -52,7 +62,7 @@ export const AllWorks = [
         imagePosition: "object-left",
     },
     {
-        id: 4,
+        id: 5,
         image: timeTrackingDashboard,
         title: "Time Tracking Dashboard",
         subTitle: 'Frontendmentor challenge',
@@ -61,7 +71,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 5,
+        id: 6,
         image: interactiveRatingImg,
         title: "Interactive Rating Component",
         subTitle: 'Frontendmentor challenge',
@@ -70,7 +80,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 6,
+        id: 7,
         image: adviceGeneratorImg,
         title: "Advice Generator",
         subTitle: 'Frontendmentor challenge',
@@ -79,7 +89,7 @@ export const AllWorks = [
         imagePosition: "object-center"
     },
     {
-        id: 7,
+        id: 8,
         image: todoApp,
         title: "Todo app",
         subTitle: 'Frontendmentor challenge',
@@ -88,7 +98,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 8,
+        id: 9,
         image: ecommerceImg,
         title: "ECommerce product page",
         subTitle: 'Frontendmentor challenge',
@@ -97,7 +107,7 @@ export const AllWorks = [
         imagePosition: "object-[40%]",
     },
     {
-        id: 9,
+        id: 10,
         image: calculatorImg,
         title: "Calculator app",
         subTitle: 'Frontendmentor challenge',
@@ -106,7 +116,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 10,
+        id: 11,
         image: socialMediaDashboard,
         title: "Social Media Dashboard",
         subTitle: 'Frontendmentor challenge',
@@ -115,7 +125,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 11,
+        id: 12,
         image: launchCountdownImg,
         title: "Launch countdown timer",
         subTitle: 'Frontendmentor Challenge',
@@ -124,7 +134,7 @@ export const AllWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 12,
+        id: 13,
         image: introSectionImg,
         title: "Intro Section",
         subTitle: 'Frontendmentor Challenge',
@@ -133,7 +143,7 @@ export const AllWorks = [
         imagePosition: "object-left",
     },
     {
-        id: 13,
+        id: 14,
         image: HNGResumeImg,
         title: "Resume",
         subTitle: 'Task by HNG internship',
@@ -142,7 +152,7 @@ export const AllWorks = [
         imagePosition: "object-[20%]",
     },
     {
-        id: 14,
+        id: 15,
         image: fyloLandingPage,
         title: "Fylo landing page",
         subTitle: 'Frontendmentor Challenge',
@@ -150,35 +160,35 @@ export const AllWorks = [
         demoURL: "https://jay035.github.io/fylo-dark-theme-landing-page-master/",
         imagePosition: "object-center",
     },
+    // {
+    //     id: 16,
+    //     image: counterImg,
+    //     title: "Counter",
+    //     subTitle: 'Task by SideHustle internship',
+    //     githubURL: "https://github.com/Jay035/Javascript-projects/tree/main/Counter",
+    //     demoURL: "https://jay035.github.io/Javascript%20counter/",
+    //     imagePosition: "object-center",
+    // },
+    // {
+    //     id: 17,
+    //     image: dashboardImg,
+    //     title: "ECare Doctor's dashboard",
+    //     subTitle: 'Task by ZURI Internship',
+    //     githubURL: "https://github.com/Jay035/ECare/tree/main",
+    //     demoURL: "https://jay035.github.io/ECare/",
+    //     imagePosition: "object-left",
+    // },
+    // {
+    //     id: 18,
+    //     image: socialProofImg,
+    //     title: "Social proof section",
+    //     subTitle: 'Frontendmentor challenge',
+    //     githubURL: "https://github.com/Jay035/social-proof-section",
+    //     demoURL: "https://jay035.github.io/social-proof-section/",
+    //     imagePosition: "object-[35%]",
+    // },
     {
-        id: 15,
-        image: counterImg,
-        title: "Counter",
-        subTitle: 'Task by SideHustle internship',
-        githubURL: "https://github.com/Jay035/Javascript-projects/tree/main/Counter",
-        demoURL: "https://jay035.github.io/Javascript%20counter/",
-        imagePosition: "object-center",
-    },
-    {
-        id: 16,
-        image: dashboardImg,
-        title: "ECare Doctor's dashboard",
-        subTitle: 'Task by ZURI Internship',
-        githubURL: "https://github.com/Jay035/ECare/tree/main",
-        demoURL: "https://jay035.github.io/ECare/",
-        imagePosition: "object-left",
-    },
-    {
-        id: 17,
-        image: socialProofImg,
-        title: "Social proof section",
-        subTitle: 'Frontendmentor challenge',
-        githubURL: "https://github.com/Jay035/social-proof-section",
-        demoURL: "https://jay035.github.io/social-proof-section/",
-        imagePosition: "object-[35%]",
-    },
-    {
-        id: 18,
+        id: 19,
         image: chatImg,
         title: "Chat app Illustration",
         subTitle: 'Frontendmentor challenge',
@@ -186,20 +196,29 @@ export const AllWorks = [
         demoURL: "https://jay035.github.io/chat-app-css-illustration/",
         imagePosition: "object-center",
     },
-    {
-        id: 19,
-        image: columnCardImg,
-        title: "3 Column card",
-        subTitle: 'Frontendmentor challenge',
-        githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/3-column-preview-card-component-main",
-        demoURL: "https://jay035.github.io/3-column-preview-card/",
-        imagePosition: "object-center",
-    },
+    // {
+    //     id: 20,
+    //     image: columnCardImg,
+    //     title: "3 Column card",
+    //     subTitle: 'Frontendmentor challenge',
+    //     githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/3-column-preview-card-component-main",
+    //     demoURL: "https://jay035.github.io/3-column-preview-card/",
+    //     imagePosition: "object-center",
+    // },
 ]
 
 export const ReactJSWorks = [
     {
         id: 1,
+        image: spaceTourismImg,
+        title: "Space Tourism website",
+        subTitle: 'FrontendMentor challenge',
+        githubURL: "https://github.com/Jay035/Space-tourism-Multi-page-website",
+        demoURL: "https://space-tourism-reactjs-website.netlify.app/",
+        imagePosition: "object-center",
+    },
+    {
+        id: 2,
         image: travelJournalImg,
         title: "Travel Journal",
         subTitle: 'Scrimba React JS challenge',
@@ -210,7 +229,7 @@ export const ReactJSWorks = [
         // class: "html css javascript react"
     },
     {
-        id: 2,
+        id: 3,
         image: memeGeneratorImg,
         title: "Meme Generator",
         subTitle: 'Scrimba react course challenge',
@@ -219,7 +238,7 @@ export const ReactJSWorks = [
         imagePosition: "object-center",
     },
     {
-        id: 3,
+        id: 4,
         image: portfolioImg,
         title: "Portfolio",
         subTitle: 'Personal project',
@@ -228,7 +247,7 @@ export const ReactJSWorks = [
         imagePosition: "object-left",
     },
     {
-        id: 4,
+        id: 5,
         image: timeTrackingDashboard,
         title: "Time Tracking Dashboard",
         subTitle: 'Frontendmentor challenge',
@@ -237,7 +256,7 @@ export const ReactJSWorks = [
         imagePosition: "object-left",
     },
     {
-        id: 5,
+        id: 6,
         image: interactiveRatingImg,
         title: "Interactive Rating Component",
         subTitle: 'Frontendmentor challenge',
@@ -395,33 +414,33 @@ export const VanillaCSSWorks = [
         demoURL: "https://jay035.github.io/fylo-dark-theme-landing-page-master/",
         imagePosition: "object-center",
     },
-    {
-        id: 10,
-        image: counterImg,
-        title: "Counter",
-        subTitle: 'Task by SideHustle internship',
-        githubURL: "https://github.com/Jay035/Javascript-projects/tree/main/Counter",
-        demoURL: "https://jay035.github.io/Javascript%20counter/",
-        imagePosition: "object-center",
-    },
-    {
-        id: 11,
-        image: dashboardImg,
-        title: "ECare Doctor's dashboard",
-        subTitle: 'Task by ZURI Internship',
-        githubURL: "https://github.com/Jay035/ECare/tree/main",
-        demoURL: "https://jay035.github.io/ECare/",
-        imagePosition: "object-left",
-    },
-    {
-        id: 12,
-        image: socialProofImg,
-        title: "Social proof section",
-        subTitle: 'Frontendmentor challenge',
-        githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/social-proof-section-master",
-        demoURL: "https://jay035.github.io/social-proof-section-master/",
-        imagePosition: "object-[35%]",
-    },
+    // {
+    //     id: 10,
+    //     image: counterImg,
+    //     title: "Counter",
+    //     subTitle: 'Task by SideHustle internship',
+    //     githubURL: "https://github.com/Jay035/Javascript-projects/tree/main/Counter",
+    //     demoURL: "https://jay035.github.io/Javascript%20counter/",
+    //     imagePosition: "object-center",
+    // },
+    // {
+    //     id: 11,
+    //     image: dashboardImg,
+    //     title: "ECare Doctor's dashboard",
+    //     subTitle: 'Task by ZURI Internship',
+    //     githubURL: "https://github.com/Jay035/ECare/tree/main",
+    //     demoURL: "https://jay035.github.io/ECare/",
+    //     imagePosition: "object-left",
+    // },
+    // {
+    //     id: 12,
+    //     image: socialProofImg,
+    //     title: "Social proof section",
+    //     subTitle: 'Frontendmentor challenge',
+    //     githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/social-proof-section-master",
+    //     demoURL: "https://jay035.github.io/social-proof-section-master/",
+    //     imagePosition: "object-[35%]",
+    // },
     {
         id: 13,
         image: chatImg,
@@ -534,33 +553,33 @@ export const HTMLWorks = [
         demoURL: "https://jay035.github.io/fylo-dark-theme-landing-page-master/",
         imagePosition: "object-center",
     },
-    {
-        id: 11,
-        image: counterImg,
-        title: "Counter",
-        subTitle: 'Task by SideHustle internship',
-        githubURL: "https://github.com/Jay035/Javascript-projects/tree/main/Counter",
-        demoURL: "https://jay035.github.io/Javascript%20counter/",
-        imagePosition: "object-center",
-    },
-    {
-        id: 12,
-        image: dashboardImg,
-        title: "ECare Doctor's dashboard",
-        subTitle: 'Task by ZURI Internship',
-        githubURL: "https://github.com/Jay035/ECare/tree/main",
-        demoURL: "https://jay035.github.io/ECare/",
-        imagePosition: "object-left",
-    },
-    {
-        id: 13,
-        image: socialProofImg,
-        title: "Social proof section",
-        subTitle: 'Frontendmentor challenge',
-        githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/social-proof-section-master",
-        demoURL: "https://jay035.github.io/social-proof-section-master/",
-        imagePosition: "object-[35%]",
-    },
+    // {
+    //     id: 11,
+    //     image: counterImg,
+    //     title: "Counter",
+    //     subTitle: 'Task by SideHustle internship',
+    //     githubURL: "https://github.com/Jay035/Javascript-projects/tree/main/Counter",
+    //     demoURL: "https://jay035.github.io/Javascript%20counter/",
+    //     imagePosition: "object-center",
+    // },
+    // {
+    //     id: 12,
+    //     image: dashboardImg,
+    //     title: "ECare Doctor's dashboard",
+    //     subTitle: 'Task by ZURI Internship',
+    //     githubURL: "https://github.com/Jay035/ECare/tree/main",
+    //     demoURL: "https://jay035.github.io/ECare/",
+    //     imagePosition: "object-left",
+    // },
+    // {
+    //     id: 13,
+    //     image: socialProofImg,
+    //     title: "Social proof section",
+    //     subTitle: 'Frontendmentor challenge',
+    //     githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/social-proof-section-master",
+    //     demoURL: "https://jay035.github.io/social-proof-section-master/",
+    //     imagePosition: "object-[35%]",
+    // },
     {
         id: 14,
         image: chatImg,

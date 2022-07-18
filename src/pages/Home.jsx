@@ -60,74 +60,80 @@ export const Home = () => {
 
         {/* ============= ABOUT ME =================== */}
 
-        <section data-aos="fade-in" data-aos-duration="4000" data-aos-easing="ease" id="about-me" className='w-[90%] mx-auto leading-7 pt-16 max-w-[1000px]'>
-          <h1 className='text-3xl sm:text-4xl font-semibold text-center mt-8 pb-10'>{aboutHeading}</h1>
-          <div className="about-sections grid text-base sm:text-lg">
+        <section data-aos="fade" data-aos-duration="3000" id="about-me" className='w-[90%] mx-auto leading-7 pt-16 max-w-[1000px]'>
+          <h1 data-aos="fade-up" data-aos-duration="3000" className='text-3xl sm:text-4xl font-semibold text-center mt-8 pb-10'>{aboutHeading}</h1>
+          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200" className="about-sections grid text-base sm:text-lg">
               {/* LEFT COLUMN  */}
             <div className="xl:text-xl sm:font-normal text-base">
-              <h3 className='text-2xl xl:text-3xl mb-2 font-medium'>Hello, I'm <span className='text-white opacity-90'>Chibuike Ukandu.</span></h3>
-              <p className=''>I'm an enthusiastic Frontend developer, an ardent believer in continuous learning of both technical and soft skills
+              <h3 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300" className='text-2xl xl:text-3xl mb-2 font-medium'>Hello, I'm <span className='text-white opacity-90'>Chibuike Ukandu.</span></h3>
+              <p data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400" className=''>I'm an enthusiastic Frontend developer, an ardent believer in continuous learning of both technical and soft skills
                to improve my ability to deliver great software solutions with the best user experience. Whether it's a project, job opportunity, 
                or just a chat, feel free to contact me.</p>
 
               {/* SKILLS */}
                <div id="skills" className="my-8">
-                <h5 className='text-2xl sm:text-3xl font-semibold mb-2'>Skills</h5>
+                <h5 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500" className='text-2xl sm:text-3xl font-semibold mb-2'>Skills</h5>
                 <div className="">
                   {/* <p className='text-lg font-medium opacity-80'> // These are the technologies I've worked with</p> */}
-                  <ul className='mt-8 flex flex-wrap md:grid md:grid-cols-5 md:gap-12 gap-5 px-4 text-center'>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
+                  <ul data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600" className='mt-8 flex flex-wrap md:grid md:grid-cols-5 md:gap-12 gap-5 px-4 text-center'>
+                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700" className='flex flex-col items-center font-medium cursor-default'>
                       <i className="ri-html5-fill hidden md:inline-block text-3xl mb-2"></i>
                       <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>HTML</span>
                     </li>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
+
+                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700" className='flex flex-col items-center font-medium cursor-default'>
                       <i className="ri-css3-fill hidden md:inline-block text-3xl mb-2"></i>
                       <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>CSS</span>
                     </li>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
+
+                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700" className='flex flex-col items-center font-medium cursor-default'>
                       <img src={sassIcon} alt="" className=' hidden md:inline-block mb-2 w-[2.25rem]' />
                       <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>SCSS/SASS</span>
                     </li>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
+
+                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700" className='flex flex-col items-center font-medium cursor-default'>
                       <img src={bootstrapIcon} alt="" className='hidden md:inline-block mb-2 w-[2.25rem]' />
                       <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>BOOTSTRAP</span>
                     </li>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
+
+                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700" className='flex flex-col items-center font-medium cursor-default'>
                       <i className="ri-github-fill hidden md:inline-block text-3xl mb-2"></i>
                       <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>GITHUB</span>
                     </li>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
+
+                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
                       <img src={tailwindcssIcon} alt="" className='hidden md:inline-block mb-2 w-[2.25rem] '/>
                       <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>TAILWINDCSS</span>
                     </li>
-                    <li className='flex flex-col items-center font-medium cursor-default'>
+
+                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
                       <img src={javascriptIcon} alt="" className='hidden md:inline-block mb-2 w-[2.25rem]'/>
                       <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>JAVASCRIPT</span>
                     </li>
                     
-                    <li className='flex flex-col items-center font-medium cursor-default'>
+                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
                       <i className="ri-reactjs-line hidden md:inline-block text-3xl mb-2"></i>
                       <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>REACT JS</span>
-                      </li>
+                    </li>
                   </ul>
                 </div>
               </div>
 
               {/* EDUCATION */}
-              <div className="mt-12 mb-8">
+              <div data-aos="fade-up" data-aos-duration="3000" className="mt-12 mb-8">
                 <h5 className='text-2xl lg:text-3xl font-semibold mb-2'>Education</h5>
-                <ul className='list-disc pl-9 pb-2'>
-                  <li className='cursor-default pb-2'>
+                <ul data-aos="fade-up" data-aos-duration="3000" className='list-disc pl-9 pb-2'>
+                  <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300" className='cursor-default pb-2'>
                     <h6 className='font-medium'>AltSchool School of Engineering</h6>
                     <p className='text-base'>Software Engineering</p>
                     <p className='text-lg font-medium'>2022 - 2023</p>
                   </li>
-                  <li className='pb-2 cursor-default'>
+                  <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400" className='pb-2 cursor-default'>
                     <h6 className='font-medium'>Jobberman</h6>
                     <p className='text-base'>Soft Skills Training</p>
                     <p className='text-lg font-medium'>2021</p>
                   </li>
-                  <li className='pb-2 cursor-default'>
+                  <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500" className='pb-2 cursor-default'>
                     <h6 className='font-medium'>Living Word Academy Secondary</h6>
                     <p className='text-base'>WASSCE</p>
                     <p className='text-lg font-medium'>2020</p>
@@ -135,7 +141,7 @@ export const Home = () => {
                 </ul>
               </div>
 
-              <div id="projects" className="pb-8">
+              <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200" id="projects" className="pb-8">
                   <h5 className='text-2xl font-medium mb-2'>Projects</h5>
                   <p className="">Links to my works can be found on my <Link to="/project" className='font-medium text-white opacity-90'> {portfolio}</Link> </p>
               </div>
