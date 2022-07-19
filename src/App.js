@@ -49,7 +49,7 @@ function App() {
             {/* nav links */}
             <ul className="menu flex flex-col justify-center lg:justify-end lg:flex-row font-medium items-center text-xl text-center min-h-screen lg:min-h-fit gap-6">
               <li id="home" className="relative text-light-grey text-xl hover:text-white" onClick={ displayPage}>
-                <NavLink to="/">Home </NavLink>
+                <NavLink to="/" onClick={() => setLoading(false)}>Home </NavLink>
               </li>
               <li id="portfolio" className="relative text-light-grey text-xl hover:text-white" onClick={ displayPage}>
                 <NavLink to="/project">Portfolio </NavLink>
