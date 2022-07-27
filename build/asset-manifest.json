@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.542d85bc.css",
-    "main.js": "/static/js/main.5d39f947.js",
-    "static/media/Chibuike_Ukandu_ CV.pdf": "/static/media/Chibuike_Ukandu_ CV.ef262ba29a69bb6e5ed3.pdf",
+    "main.js": "/static/js/main.014c6c15.js",
+    "static/media/Chibuike_Ukandu_ CV.pdf": "/static/media/Chibuike_Ukandu_ CV.52d14ede454d2d894329.pdf",
     "static/media/contact.jpg": "/static/media/contact.7e6b0b94fd45e40566ba.jpg",
     "static/media/meme-generator.png": "/static/media/meme-generator.ab8a9ef3ce9593b3d273.png",
     "static/media/portfolio.png": "/static/media/portfolio.f860e739bc8e4052da7b.png",
@@ -27,10 +27,10 @@
     "static/media/interactive-rating.jpg": "/static/media/interactive-rating.e216cabf51047ff9ba7d.jpg",
     "index.html": "/index.html",
     "main.542d85bc.css.map": "/static/css/main.542d85bc.css.map",
-    "main.5d39f947.js.map": "/static/js/main.5d39f947.js.map"
+    "main.014c6c15.js.map": "/static/js/main.014c6c15.js.map"
   },
   "entrypoints": [
     "static/css/main.542d85bc.css",
-    "static/js/main.5d39f947.js"
+    "static/js/main.014c6c15.js"
   ]
 }

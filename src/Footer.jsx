@@ -5,7 +5,7 @@ export const Footer = () => {
         <div className="flex flex-col-reverse gap-4 w-fit mx-auto sm:flex-row sm:w-[90%] sm:max-w-[1000px] sm:items-center sm:justify-between ">
             <p className="flex items-center gap-1 mx-auto sm:mx-0"><i className="ri-copyright-line"></i> Chibuike Ukandu. 2022</p>
             <div className="flex justify-between gap-6">
-                <a href="https://mobile.twitter.com/Chibuike035">
+                <a href="https://twitter.com/Chibuike035">
                     <i className="ri-twitter-fill text-[2rem]  hover:text-white"></i>
                 </a>
                 <a href="https://github.com/Jay035">
