@@ -74,8 +74,8 @@ export const Project = () => {
     }, [selected])
 
     return (
-        <div id='portfolio' data-aos="fade" data-aos-duration="3000" className='relative bg-blackk text-light-grey bg-portfolio-Bg h-full bg-top overflow-hidden mt-[5.3rem]'>
-            <div data-aos="fade-in" data-aos-duration="3000" className="container px-8 max-w-[900px] xl:max-w-[1200px] mx-auto bg-blend-multiply bg-cover">
+        <div id='portfolio' data-aos="fade-in" data-aos-duration="3000" className='relative bg-blackk text-light-grey bg-portfolio-Bg h-full bg-top overflow-hidden mt-[5.3rem]'>
+            <div data-aos="fade-in" data-aos-duration="3000" className="container px-8 max-w-[900px] xl:max-w-[1200px] mx-auto backdrop-blur-sm">
                 <h1 className='text-center text-3xl sm:text-4xl font-semibold pt-8 pb-10'>{portfolioHeading}</h1>
                 <p className='font-medium text-lg'>Below are my works</p>
                 {/* buttons */}

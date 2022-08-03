@@ -5,13 +5,13 @@ import memeGeneratorImg from '../components/assets/meme-generator.png';
 import adviceGeneratorImg from '../components/assets/advice-generator.jpg';
 import portfolioImg from '../components/assets/portfolio.png';
 import calculatorImg from '../components/assets/calculator.jpg';
-import chatImg from '../components/assets/chat-app-illustration.jpg';
-import columnCardImg from '../components/assets/3-column-card.jpg';
+// import chatImg from '../components/assets/chat-app-illustration.jpg';
+// import columnCardImg from '../components/assets/3-column-card.jpg';
 // import counterImg from '../components/assets/counter.png';
 // import dashboardImg from '../components/assets/dashboard.png';
 import ecommerceImg from '../components/assets/ecommerce.jpg';
 import fyloLandingPage from '../components/assets/fylo-landing-page.jpg';
-import HNGResumeImg from '../components/assets/HNG_Resume.png';
+// import HNGResumeImg from '../components/assets/HNG_Resume.png';
 // import hoadrImg from '../components/assets/hoadr.png';
 import interactiveRatingImg from '../components/assets/interactive-rating.jpg';
 import introSectionImg from '../components/assets/intro-section.jpg';
@@ -29,7 +29,7 @@ export const AllWorks = [
         id: 1,
         image: spaceTourismImg,
         title: "Space Tourism website",
-        subTitle: 'FrontendMentor challenge',
+        subTitle: 'A multi-page space tourism website ',
         githubURL: "https://github.com/Jay035/Space-tourism-Multi-page-website",
         demoURL: "https://space-tourism-reactjs-website.netlify.app/",
         imagePosition: "object-center",
@@ -38,7 +38,7 @@ export const AllWorks = [
         id: 2,
         image: travelJournalImg,
         title: "Travel Journal",
-        subTitle: 'Scrimba React JS challenge',
+        subTitle: 'Scrimba React JS course challenge',
         githubURL: "https://github.com/Jay035/travel-journal",
         demoURL: "https://jay035.github.io/travel-journal/",
         imagePosition: "object-center",
@@ -47,7 +47,7 @@ export const AllWorks = [
         id: 3,
         image: memeGeneratorImg,
         title: "Meme Generator",
-        subTitle: 'Scrimba react course challenge',
+        subTitle: 'Scrimba React JS course challenge',
         githubURL: "https://github.com/Jay035/meme-generator",
         demoURL: "https://jay035.github.io/meme-generator/",
         imagePosition: "object-center",
@@ -68,7 +68,7 @@ export const AllWorks = [
         subTitle: 'Frontendmentor challenge',
         githubURL: "https://github.com/Jay035/Time-tracking-dashboard",
         demoURL: "https://jay035.github.io/Time-tracking-dashboard/",
-        imagePosition: "object-center",
+        imagePosition: "object-[30%]",
     },
     {
         id: 6,
@@ -142,17 +142,17 @@ export const AllWorks = [
         demoURL: "https://jay035.github.io/intro-section-with-dropdown-navigation/",
         imagePosition: "object-left",
     },
+    // {
+    //     id: 14,
+    //     image: HNGResumeImg,
+    //     title: "Resume",
+    //     subTitle: 'Task by HNG internship',
+    //     githubURL: "https://github.com/Jay035/Resume",
+    //     demoURL: "https://jay035.github.io/HNG%20Resume/",
+    //     imagePosition: "object-[20%]",
+    // },
     {
         id: 14,
-        image: HNGResumeImg,
-        title: "Resume",
-        subTitle: 'Task by HNG internship',
-        githubURL: "https://github.com/Jay035/Resume",
-        demoURL: "https://jay035.github.io/HNG%20Resume/",
-        imagePosition: "object-[20%]",
-    },
-    {
-        id: 15,
         image: fyloLandingPage,
         title: "Fylo landing page",
         subTitle: 'Frontendmentor Challenge',
@@ -187,15 +187,15 @@ export const AllWorks = [
     //     demoURL: "https://jay035.github.io/social-proof-section/",
     //     imagePosition: "object-[35%]",
     // },
-    {
-        id: 19,
-        image: chatImg,
-        title: "Chat app Illustration",
-        subTitle: 'Frontendmentor challenge',
-        githubURL: "https://github.com/Jay035/chat-app-css-illustration",
-        demoURL: "https://jay035.github.io/chat-app-css-illustration/",
-        imagePosition: "object-center",
-    },
+    // {
+    //     id: 19,
+    //     image: chatImg,
+    //     title: "Chat app Illustration",
+    //     subTitle: 'Frontendmentor challenge',
+    //     githubURL: "https://github.com/Jay035/chat-app-css-illustration",
+    //     demoURL: "https://jay035.github.io/chat-app-css-illustration/",
+    //     imagePosition: "object-center",
+    // },
     // {
     //     id: 20,
     //     image: columnCardImg,
@@ -342,15 +342,15 @@ export const VanillaCSSWorks = [
         demoURL: "https://jay035.github.io/intro-section-with-dropdown-navigation/",
         imagePosition: "object-left",
     },
-    {
-        id: 2,
-        image: HNGResumeImg,
-        title: "Resume",
-        subTitle: 'Task by HNG internship',
-        githubURL: "https://github.com/Jay035/Resume",
-        demoURL: "https://jay035.github.io/HNG%20Resume/",
-        imagePosition: "object-[20%]",
-    },
+    // {
+    //     id: 2,
+    //     image: HNGResumeImg,
+    //     title: "Resume",
+    //     subTitle: 'Task by HNG internship',
+    //     githubURL: "https://github.com/Jay035/Resume",
+    //     demoURL: "https://jay035.github.io/HNG%20Resume/",
+    //     imagePosition: "object-[20%]",
+    // },
     {
         id: 3,
         image: adviceGeneratorImg,
@@ -441,24 +441,24 @@ export const VanillaCSSWorks = [
     //     demoURL: "https://jay035.github.io/social-proof-section-master/",
     //     imagePosition: "object-[35%]",
     // },
-    {
-        id: 13,
-        image: chatImg,
-        title: "Chat app Illustration",
-        subTitle: 'Frontendmentor challenge',
-        githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/chat-app-css-illustration-master",
-        demoURL: "https://jay035.github.io/chat-app-css-illustration-master/",
-        imagePosition: "object-center",
-    },
-    {
-        id: 14,
-        image: columnCardImg,
-        title: "3 Column card",
-        subTitle: 'Frontendmentor challenge',
-        githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/3-column-preview-card-component-main",
-        demoURL: "https://jay035.github.io/3-column-preview-card/",
-        imagePosition: "object-center",
-    },
+    // {
+    //     id: 13,
+    //     image: chatImg,
+    //     title: "Chat app Illustration",
+    //     subTitle: 'Frontendmentor challenge',
+    //     githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/chat-app-css-illustration-master",
+    //     demoURL: "https://jay035.github.io/chat-app-css-illustration-master/",
+    //     imagePosition: "object-center",
+    // },
+    // {
+    //     id: 14,
+    //     image: columnCardImg,
+    //     title: "3 Column card",
+    //     subTitle: 'Frontendmentor challenge',
+    //     githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/3-column-preview-card-component-main",
+    //     demoURL: "https://jay035.github.io/3-column-preview-card/",
+    //     imagePosition: "object-center",
+    // },
     
 ]
 
@@ -472,15 +472,15 @@ export const HTMLWorks = [
         demoURL: "https://jay035.github.io/intro-section-with-dropdown-navigation/",
         imagePosition: "object-left",
     },
-    {
-        id: 2,
-        image: HNGResumeImg,
-        title: "Resume",
-        subTitle: 'Task by HNG internship',
-        githubURL: "https://github.com/Jay035/Resume",
-        demoURL: "https://jay035.github.io/HNG%20Resume/",
-        imagePosition: "object-[20%]",
-    },
+    // {
+    //     id: 2,
+    //     image: HNGResumeImg,
+    //     title: "Resume",
+    //     subTitle: 'Task by HNG internship',
+    //     githubURL: "https://github.com/Jay035/Resume",
+    //     demoURL: "https://jay035.github.io/HNG%20Resume/",
+    //     imagePosition: "object-[20%]",
+    // },
     {
         id: 3,
         image: adviceGeneratorImg,
@@ -580,24 +580,24 @@ export const HTMLWorks = [
     //     demoURL: "https://jay035.github.io/social-proof-section-master/",
     //     imagePosition: "object-[35%]",
     // },
-    {
-        id: 14,
-        image: chatImg,
-        title: "Chat app Illustration",
-        subTitle: 'Frontendmentor challenge',
-        githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/chat-app-css-illustration-master",
-        demoURL: "https://jay035.github.io/chat-app-css-illustration-master/",
-        imagePosition: "object-center",
-    },
-    {
-        id: 15,
-        image: columnCardImg,
-        title: "3 Column card",
-        subTitle: 'Frontendmentor challenge',
-        githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/3-column-preview-card-component-main",
-        demoURL: "https://jay035.github.io/3-column-preview-card/",
-        imagePosition: "object-center",
-    },
+    // {
+    //     id: 14,
+    //     image: chatImg,
+    //     title: "Chat app Illustration",
+    //     subTitle: 'Frontendmentor challenge',
+    //     githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/chat-app-css-illustration-master",
+    //     demoURL: "https://jay035.github.io/chat-app-css-illustration-master/",
+    //     imagePosition: "object-center",
+    // },
+    // {
+    //     id: 15,
+    //     image: columnCardImg,
+    //     title: "3 Column card",
+    //     subTitle: 'Frontendmentor challenge',
+    //     githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/3-column-preview-card-component-main",
+    //     demoURL: "https://jay035.github.io/3-column-preview-card/",
+    //     imagePosition: "object-center",
+    // },
 ]
 
 export const TailwindCSSWorks = [

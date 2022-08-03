@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.542d85bc.css",
-    "main.js": "/static/js/main.014c6c15.js",
+    "main.css": "/static/css/main.1605d614.css",
+    "main.js": "/static/js/main.dc5c91f0.js",
     "static/media/Chibuike_Ukandu_ CV.pdf": "/static/media/Chibuike_Ukandu_ CV.52d14ede454d2d894329.pdf",
     "static/media/contact.jpg": "/static/media/contact.7e6b0b94fd45e40566ba.jpg",
     "static/media/meme-generator.png": "/static/media/meme-generator.ab8a9ef3ce9593b3d273.png",
@@ -16,21 +16,18 @@
     "static/media/fylo-landing-page.jpg": "/static/media/fylo-landing-page.8fffd77f4847c168b296.jpg",
     "static/media/todo-app.jpg": "/static/media/todo-app.8e3ac4a720763a3d6e8b.jpg",
     "static/media/portfolio-bg.jpg": "/static/media/portfolio-bg.fc2130c1ca8d6c8b5fe4.jpg",
-    "static/media/chat-app-illustration.jpg": "/static/media/chat-app-illustration.b558a72eca6adfc22b0e.jpg",
     "static/media/social-media-dashboard.jpg": "/static/media/social-media-dashboard.738301e94f182ad19e00.jpg",
-    "static/media/3-column-card.jpg": "/static/media/3-column-card.313964c46f6a29d87886.jpg",
-    "static/media/HNG_Resume.png": "/static/media/HNG_Resume.c55c8d4c48251eab6a2a.png",
     "static/media/logo.png": "/static/media/logo.5c2a1b7ee202205e7d35.png",
     "static/media/calculator.jpg": "/static/media/calculator.c5e01a6fdf4d1c178749.jpg",
     "static/media/launch-countdown.jpg": "/static/media/launch-countdown.40bb4b7754467d37b2f1.jpg",
     "static/media/background.jpg": "/static/media/background.362707523e6762c737c0.jpg",
     "static/media/interactive-rating.jpg": "/static/media/interactive-rating.e216cabf51047ff9ba7d.jpg",
     "index.html": "/index.html",
-    "main.542d85bc.css.map": "/static/css/main.542d85bc.css.map",
-    "main.014c6c15.js.map": "/static/js/main.014c6c15.js.map"
+    "main.1605d614.css.map": "/static/css/main.1605d614.css.map",
+    "main.dc5c91f0.js.map": "/static/js/main.dc5c91f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.542d85bc.css",
-    "static/js/main.014c6c15.js"
+    "static/css/main.1605d614.css",
+    "static/js/main.dc5c91f0.js"
   ]
 }

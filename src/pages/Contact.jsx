@@ -19,7 +19,7 @@ export const Contact = () => {
   };
 
   return (
-    <main data-aos="fade-out" data-aos-duration="3000" className='relative bg-no-repeat bg-center bg-contact-Bg  bg-black-300 bg-blend-multiply bg-cover text-light-grey h-full overflow-x-hidden mt-[5.3rem]'>
+    <main data-aos="fade-in" data-aos-duration="3000" className='relative bg-no-repeat bg-center bg-contact-Bg bg-black-300 bg-blend-multiply bg-cover text-light-grey h-full overflow-x-hidden mt-[5.3rem]'>
       <div className='w-[90%] mx-auto max-w-[800px]'>
         {/* Title */}
         <div className='block pt-16 mb-8'>
