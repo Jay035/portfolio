@@ -1,27 +1,27 @@
-import travelJournalImg from '../components/assets/travel-journal.png';
-import spaceTourismImg from '../components/assets/space-tourism-page.jpg';
-import timeTrackingDashboard from '../components/assets/time-tracking-dashboard.png';
-import memeGeneratorImg from '../components/assets/meme-generator.png';
-import adviceGeneratorImg from '../components/assets/advice-generator.jpg';
-import portfolioImg from '../components/assets/portfolio.png';
-import calculatorImg from '../components/assets/calculator.jpg';
-// import chatImg from '../components/assets/chat-app-illustration.jpg';
-// import columnCardImg from '../components/assets/3-column-card.jpg';
-// import counterImg from '../components/assets/counter.png';
-// import dashboardImg from '../components/assets/dashboard.png';
-import ecommerceImg from '../components/assets/ecommerce.jpg';
-import fyloLandingPage from '../components/assets/fylo-landing-page.jpg';
-// import HNGResumeImg from '../components/assets/HNG_Resume.png';
-// import hoadrImg from '../components/assets/hoadr.png';
-import interactiveRatingImg from '../components/assets/interactive-rating.jpg';
-import introSectionImg from '../components/assets/intro-section.jpg';
-import launchCountdownImg from '../components/assets/launch-countdown.jpg';
-// import orderSummaryImg from '../components/assets/order-summary-component.jpg';
-import socialMediaDashboard from '../components/assets/social-media-dashboard.jpg';
-// import socialProofImg from '../components/assets/social-proof.jpg';
-import sunnysideLandingpage from '../components/assets/sunnyside-landing-page.jpg';
-// import testimonialsPageImg from '../components/assets/testimonials-page.png'
-import todoApp from '../components/assets/todo-app.jpg';
+import travelJournalImg from '../assets/travel-journal.png';
+import spaceTourismImg from '../assets/space-tourism-page.jpg';
+import timeTrackingDashboard from '../assets/time-tracking-dashboard.png';
+import memeGeneratorImg from '../assets/meme-generator.png';
+import adviceGeneratorImg from '../assets/advice-generator.jpg';
+import portfolioImg from '../assets/portfolio.png';
+import calculatorImg from '../assets/calculator.jpg';
+// import chatImg from '../assets/chat-app-illustration.jpg';
+// import columnCardImg from '../assets/3-column-card.jpg';
+// import counterImg from '../assets/counter.png';
+// import dashboardImg from '../assets/dashboard.png';
+import ecommerceImg from '../assets/ecommerce.jpg';
+import fyloLandingPage from '../assets/fylo-landing-page.jpg';
+// importmg from '../assets/HNG_Resume.png';
+// import hoadrImg from '../assets/hoadr.png';
+import interactiveRatingImg from '../assets/interactive-rating.jpg';
+import introSectionImg from '../assets/intro-section.jpg';
+import launchCountdownImg from '../assets/launch-countdown.jpg';
+// import orderSummaryImg from '../assets/order-summary-component.jpg';
+import socialMediaDashboard from '../assets/social-media-dashboard.jpg';
+// import socialProofImg from '../assets/social-proof.jpg';
+import sunnysideLandingpage from '../assets/sunnyside-landing-page.jpg';
+// import testimonialsPageImg from '../assets/testimonials-page.png'
+import todoApp from '../assets/todo-app.jpg';
 
 
 export const AllWorks = [

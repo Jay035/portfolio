@@ -1,12 +1,12 @@
 import React from 'react';
 import { useEffect, useRef } from 'react';
-import cv from '../components/assets/Chibuike_Ukandu_ CV.pdf';
+import cv from '../assets/Chibuike_Ukandu_ CV.pdf';
 import Typed from 'typed.js';
 import { Link } from 'react-router-dom';
-import sassIcon from '../components/assets/sass.png';
-import tailwindcssIcon from '../components/assets/tailwindcss.png';
-import javascriptIcon from '../components/assets/javascript.png';
-import bootstrapIcon from '../components/assets/bootstrap.png';
+import sassIcon from '../assets/sass.png';
+import tailwindcssIcon from '../assets/tailwindcss.png';
+import javascriptIcon from '../assets/javascript.png';
+import bootstrapIcon from '../assets/bootstrap.png';
 
 export const Home = () => {
   // create ref element

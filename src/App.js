@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-do
 import { Project } from "./pages/Project";
 import { Contact } from "./pages/Contact";
 import { useEffect, useState } from "react";
-import logo from './components/assets/logo.png';
+import logo from './assets/logo.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Footer } from "./Footer";

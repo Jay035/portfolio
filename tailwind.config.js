@@ -21,9 +21,9 @@ module.exports = {
         'button-black': '#16161a'
       },
       backgroundImage: {
-        'hero-img': "url('./components/assets/background.jpg')",
-        'portfolio-Bg': "url('./components/assets/portfolio-bg.jpg')",
-        'contact-Bg': "url('./components/assets/contact.jpg')"
+        'hero-img': "url('./assets/background.jpg')",
+        'portfolio-Bg': "url('./assets/portfolio-bg.jpg')",
+        'contact-Bg': "url('./assets/contact.jpg')"
       },
     },
   },
