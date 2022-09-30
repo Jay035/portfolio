@@ -32,7 +32,7 @@ function App() {
   }, [bg])
 
   const displayPage = () => {
-    preloader.classList.remove("hidden");
+    preloader.classList.remove("preloader--hidden");
     setLoading(true);
     setMenuDisplay(prevValue => !prevValue);
   }
@@ -54,10 +54,10 @@ function App() {
                 <NavLink to="/" onClick={() => setLoading(false)}>Home </NavLink>
               </li>
               <li id="portfolio" className="relative text-light-grey text-xl hover:text-white" onClick={ displayPage}>
-                <NavLink to="/project" >Portfolio </NavLink>
+                <NavLink to="/project">Portfolio </NavLink>
               </li>
               <li id="contact" className="relative text-light-grey text-xl hover:text-white" onClick={ displayPage}>
-                <NavLink to="/contact" >Contact</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
               {/* social media links */}
               <section className="lg:hidden">

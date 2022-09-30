@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.1605d614.css",
-    "main.js": "/static/js/main.dc5c91f0.js",
-    "static/media/Chibuike_Ukandu_ CV.pdf": "/static/media/Chibuike_Ukandu_ CV.52d14ede454d2d894329.pdf",
+    "main.css": "/static/css/main.f5c3104c.css",
+    "main.js": "/static/js/main.6b5dc8fb.js",
+    "static/media/Chibuike_Ukandu_ CV.pdf": "/static/media/Chibuike_Ukandu_ CV.1bf76bb819508910ebb9.pdf",
     "static/media/contact.jpg": "/static/media/contact.7e6b0b94fd45e40566ba.jpg",
     "static/media/meme-generator.png": "/static/media/meme-generator.ab8a9ef3ce9593b3d273.png",
     "static/media/portfolio.png": "/static/media/portfolio.f860e739bc8e4052da7b.png",
@@ -23,11 +23,11 @@
     "static/media/background.jpg": "/static/media/background.362707523e6762c737c0.jpg",
     "static/media/interactive-rating.jpg": "/static/media/interactive-rating.e216cabf51047ff9ba7d.jpg",
     "index.html": "/index.html",
-    "main.1605d614.css.map": "/static/css/main.1605d614.css.map",
-    "main.dc5c91f0.js.map": "/static/js/main.dc5c91f0.js.map"
+    "main.f5c3104c.css.map": "/static/css/main.f5c3104c.css.map",
+    "main.6b5dc8fb.js.map": "/static/js/main.6b5dc8fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.1605d614.css",
-    "static/js/main.dc5c91f0.js"
+    "static/css/main.f5c3104c.css",
+    "static/js/main.6b5dc8fb.js"
   ]
 }
