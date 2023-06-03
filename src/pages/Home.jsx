@@ -47,7 +47,7 @@ export const Home = () => {
               </button>
               {/* GET CV  */}
               <button className="block cursor-auto bg-button-black p-2 w-1/2 sm:w-2/5 mx-auto sm:mx-0 my-2 text-white font-semibold hover:bg-[#505052] sm:py-4">
-                <a className='py-4 px-4 text-lg sm:text-xl xl:text-xl' href={cv} download >Get CV</a>
+                <a className='py-4 px-4 text-lg sm:text-xl xl:text-xl' href="https://drive.google.com/file/d/1zxQbHUX1Vz7GglWnuJj9mVRsnXOBVXeh/view?usp=sharing">Get CV</a>
               </button>
             </div>
           </div>
