@@ -76,45 +76,63 @@ export const Home = () => {
                 <div className="">
                   {/* <p className='text-lg font-medium opacity-80'> // These are the technologies I've worked with</p> */}
                   <ul data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600" className='mt-8 flex flex-wrap md:grid md:grid-cols-5 md:gap-12 gap-5 px-4 text-center'>
+                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
+                      <i className="ri-reactjs-line hidden text-3xl mb-2"></i>
+                      <span className='bg-light-grey/30 py-2 px-4 '>REACT JS</span>
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
+                      <img src={javascriptIcon} alt="" className='hidden mb-2 w-[2.25rem]'/>
+                      <span className='bg-light-grey/30 py-2 px-4 '>JAVASCRIPT</span>
+                    </li>
+ <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
+                      <img src={javascriptIcon} alt="" className='hidden mb-2 w-[2.25rem]'/>
+                      <span className='bg-light-grey/30 py-2 px-4 '>TYPESCRIPT</span>
+                    </li>
+ <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
+                      <img src={javascriptIcon} alt="" className='hidden mb-2 w-[2.25rem]'/>
+                      <span className='bg-light-grey/30 py-2 px-4 '>VUE JS</span>
+                    </li>
+ <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
+                      <img src={javascriptIcon} alt="" className='hidden mb-2 w-[2.25rem]'/>
+                      <span className='bg-light-grey/30 py-2 px-4 '>NEXT JS</span>
+                    </li>
+ <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
+                      <img src={javascriptIcon} alt="" className='hidden mb-2 w-[2.25rem]'/>
+                      <span className='bg-light-grey/30 py-2 px-4 '>FIGMA</span>
+                    </li>
                     <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700" className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-html5-fill hidden md:inline-block text-3xl mb-2"></i>
-                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>HTML</span>
+                      <i className="ri-html5-fill hidden  text-3xl mb-2"></i>
+                      <span className='bg-light-grey/30 py-2 px-4 '>HTML</span>
                     </li>
 
                     <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700" className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-css3-fill hidden md:inline-block text-3xl mb-2"></i>
-                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>CSS</span>
+                      <i className="ri-css3-fill hidden text-3xl mb-2"></i>
+                      <span className='bg-light-grey/30 py-2 px-4'>CSS</span>
                     </li>
 
                     <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700" className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={sassIcon} alt="" className=' hidden md:inline-block mb-2 w-[2.25rem]' />
-                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>SCSS/SASS</span>
+                      <img src={sassIcon} alt="" className=' hidden mb-2 w-[2.25rem]' />
+                      <span className='bg-light-grey/30 py-2 px-4'>SCSS/SASS</span>
                     </li>
 
                     <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700" className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={bootstrapIcon} alt="" className='hidden md:inline-block mb-2 w-[2.25rem]' />
-                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>BOOTSTRAP</span>
+                      <img src={bootstrapIcon} alt="" className='hidden mb-2 w-[2.25rem]' />
+                      <span className='bg-light-grey/30 py-2 px-4 '>BOOTSTRAP</span>
                     </li>
 
                     <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700" className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-github-fill hidden md:inline-block text-3xl mb-2"></i>
-                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>GITHUB</span>
+                      <i className="ri-github-fill hidden text-3xl mb-2"></i>
+                      <span className='bg-light-grey/30 py-2 px-4 '>GITHUB</span>
                     </li>
 
                     <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={tailwindcssIcon} alt="" className='hidden md:inline-block mb-2 w-[2.25rem] '/>
-                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>TAILWINDCSS</span>
+                      <img src={tailwindcssIcon} alt="" className='hidden mb-2 w-[2.25rem] '/>
+                      <span className='bg-light-grey/30 py-2 px-4 '>TAILWINDCSS</span>
                     </li>
 
-                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={javascriptIcon} alt="" className='hidden md:inline-block mb-2 w-[2.25rem]'/>
-                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>JAVASCRIPT</span>
-                    </li>
+                   
                     
-                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-reactjs-line hidden md:inline-block text-3xl mb-2"></i>
-                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>REACT JS</span>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
