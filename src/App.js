@@ -54,7 +54,7 @@ function App() {
                 <NavLink to="/" onClick={() => setLoading(false)}>Home </NavLink>
               </li>
               <li id="portfolio" className="relative text-light-grey text-xl hover:text-white" onClick={ displayPage}>
-                <NavLink to="/project">Portfolio </NavLink>
+                <NavLink to="/projects">Portfolio </NavLink>
               </li>
               <li id="contact" className="relative text-light-grey text-xl hover:text-white" onClick={ displayPage}>
                 <NavLink to="/contact">Contact</NavLink>
@@ -93,7 +93,7 @@ function App() {
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Project />} />
+          <Route path="/projects" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>

@@ -7,7 +7,8 @@ import {
     VanillaJSWorks, 
     VanillaCSSWorks, 
     HTMLWorks, 
-    TailwindCSSWorks  
+    TailwindCSSWorks,  
+    NextJSWorks
 } from './ProjectData';
 
 export const Project = () => {
@@ -47,6 +48,10 @@ export const Project = () => {
             id: "reactJS",
             title: "React JS"
         },
+        {
+            id: "nextJS",
+            title: "Next JS"
+        },
     ]
     useEffect(() => {
         switch(selected){
@@ -67,6 +72,9 @@ export const Project = () => {
                 break;
             case "reactJS" :
                 setData(ReactJSWorks);
+                break;
+            case "nextJS" :
+                setData(NextJSWorks);
                 break;
                 default:
                     setData(AllWorks)
