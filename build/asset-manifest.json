@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5c3104c.css",
-    "main.js": "/static/js/main.6b5dc8fb.js",
-    "static/media/Chibuike_Ukandu_ CV.pdf": "/static/media/Chibuike_Ukandu_ CV.1bf76bb819508910ebb9.pdf",
+    "main.css": "/static/css/main.b14fd75b.css",
+    "main.js": "/static/js/main.0704de73.js",
+    "static/js/184.efd4df8d.chunk.js": "/static/js/184.efd4df8d.chunk.js",
+    "static/js/578.59fc8529.chunk.js": "/static/js/578.59fc8529.chunk.js",
+    "static/js/813.3b51cf6f.chunk.js": "/static/js/813.3b51cf6f.chunk.js",
+    "static/media/Chibuike_Ukandu_ CV.pdf": "/static/media/Chibuike_Ukandu_ CV.655ca4e2fb0331a96c2a.pdf",
     "static/media/contact.jpg": "/static/media/contact.7e6b0b94fd45e40566ba.jpg",
     "static/media/meme-generator.png": "/static/media/meme-generator.ab8a9ef3ce9593b3d273.png",
+    "static/media/SoliMaxHero.png": "/static/media/SoliMaxHero.2ab0cdcd8999256d00f7.png",
     "static/media/portfolio.png": "/static/media/portfolio.f860e739bc8e4052da7b.png",
     "static/media/travel-journal.png": "/static/media/travel-journal.6e204f5dcd7045391c41.png",
     "static/media/space-tourism-page.jpg": "/static/media/space-tourism-page.39201d67247771bd73d6.jpg",
@@ -23,11 +27,14 @@
     "static/media/background.jpg": "/static/media/background.362707523e6762c737c0.jpg",
     "static/media/interactive-rating.jpg": "/static/media/interactive-rating.e216cabf51047ff9ba7d.jpg",
     "index.html": "/index.html",
-    "main.f5c3104c.css.map": "/static/css/main.f5c3104c.css.map",
-    "main.6b5dc8fb.js.map": "/static/js/main.6b5dc8fb.js.map"
+    "main.b14fd75b.css.map": "/static/css/main.b14fd75b.css.map",
+    "main.0704de73.js.map": "/static/js/main.0704de73.js.map",
+    "184.efd4df8d.chunk.js.map": "/static/js/184.efd4df8d.chunk.js.map",
+    "578.59fc8529.chunk.js.map": "/static/js/578.59fc8529.chunk.js.map",
+    "813.3b51cf6f.chunk.js.map": "/static/js/813.3b51cf6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5c3104c.css",
-    "static/js/main.6b5dc8fb.js"
+    "static/css/main.b14fd75b.css",
+    "static/js/main.0704de73.js"
   ]
 }
