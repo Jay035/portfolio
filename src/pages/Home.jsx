@@ -8,7 +8,7 @@ import tailwindcssIcon from "../assets/tailwindcss.png";
 import javascriptIcon from "../assets/javascript.png";
 import bootstrapIcon from "../assets/bootstrap.png";
 
-export const Home = () => {
+export default function Home() {
   // create ref element
   const el = useRef(null),
     aboutHeading = "<ABOUT />",
@@ -16,7 +16,7 @@ export const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: [" Chibuike Ukandu. ", " a Software Developer. "],
+      strings: [" Chibuike Ukandu. ", " a Software Developer. ", " a Frontend Engineer. "],
       startDelay: 300,
       typeSpeed: 200,
       backSpeed: 150,
@@ -149,75 +149,145 @@ export const Home = () => {
                   data-aos="fade-up"
                   data-aos-duration="3000"
                   data-aos-delay="600"
-                  className="mt-8 flex flex-wrap md:grid md:grid-cols-5 md:gap-12 gap-5 px-4 text-center"
+                  className="mt-8 flex flex-wrap md:grid md:grid-cols-5 md:gap-x-6 gap-y-10 gap-x-5 px-4 text-center justify-start items-start"
                 >
+                  {/* REACT JS */}
                   <li
                     data-aos="fade-up"
                     data-aos-duration="3000"
-                    data-aos-delay="700"
-                    className="flex flex-col items-center font-medium cursor-default"
+                    data-aos-delay="800"
+                    className="font-medium cursor-default"
                   >
-                    <i className="ri-html5-fill hidden md:inline-block text-3xl mb-2"></i>
-                    <span className="bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0">
-                      HTML
+                    {/* <i className="ri-reactjs-line hidden text-3xl mb-2"></i> */}
+                    <span className="bg-light-grey/30 py-2 px-4">REACT JS</span>
+                  </li>
+                  {/* JAVASCRIPT */}
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-delay="800"
+                    className=" font-medium"
+                  >
+                    {/* <img
+                      src={javascriptIcon}
+                      alt=""
+                      className="hidden mb-2 w-[2.25rem]"
+                    /> */}
+                    <span className="bg-light-grey/30 py-2 px-4">
+                      JAVASCRIPT
                     </span>
                   </li>
-
+                  {/* NEXT JS */}
                   <li
                     data-aos="fade-up"
                     data-aos-duration="3000"
-                    data-aos-delay="700"
-                    className="flex flex-col items-center font-medium cursor-default"
+                    data-aos-delay="800"
+                    className="font-medium cursor-default"
                   >
-                    <i className="ri-css3-fill hidden text-3xl mb-2"></i>
-                    <span className="bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0">
-                      CSS
-                    </span>
+                    {/* <i className="ri-reactjs-line hidden text-3xl mb-2"></i> */}
+                    <span className="bg-light-grey/30 py-2 px-4">NEXT JS</span>
                   </li>
-
+                  {/* VUE JS */}
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-delay="800"
+                    className=" font-medium cursor-default"
+                  >
+                    {/* <i className="ri-reactjs-line hidden text-3xl mb-2"></i> */}
+                    <span className="bg-light-grey/30 py-2 px-4">VUE JS</span>
+                  </li>
+                  {/* HTML  */}
                   <li
                     data-aos="fade-up"
                     data-aos-duration="3000"
                     data-aos-delay="700"
-                    className="flex flex-col items-center font-medium cursor-default"
+                    className="font-medium cursor-default"
                   >
-                    <img
+                    {/* <i className="ri-html5-fill hidden text-3xl mb-2"></i> */}
+                    <span className="bg-light-grey/30 py-2 px-4">HTML</span>
+                  </li>
+                  {/* CSS  */}
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-delay="700"
+                    className="font-medium cursor-default"
+                  >
+                    {/* <i className="ri-css3-fill hidden text-3xl mb-2"></i> */}
+                    <span className="bg-light-grey/30 py-2 px-4">CSS</span>
+                  </li>
+                  {/* SASS  */}
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-delay="700"
+                    className=" font-medium cursor-default"
+                  >
+                    {/* <img
                       src={sassIcon}
                       alt=""
                       className=" hidden mb-2 w-[2.25rem]"
-                    />
-                    <span className="bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0">
+                    /> */}
+                    <span className="bg-light-grey/30 py-2 px-4">
                       SCSS/SASS
                     </span>
                   </li>
-
-                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700" className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={bootstrapIcon} alt="" className='hidden mb-2 w-[2.25rem]' />
-                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>BOOTSTRAP</span>
-                    </li>
-
-                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700" className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-github-fill hidden text-3xl mb-2"></i>
-                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>GITHUB</span>
-                    </li>
-
-                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={tailwindcssIcon} alt="" className='hidden mb-2 w-[2.25rem] '/>
-                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>TAILWINDCSS</span>
-                    </li>
-
-                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
-                      <img src={javascriptIcon} alt="" className='hidden mb-2 w-[2.25rem]'/>
-                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>JAVASCRIPT</span>
-                    </li>
-                    
-                    <li data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" className='flex flex-col items-center font-medium cursor-default'>
-                      <i className="ri-reactjs-line hidden text-3xl mb-2"></i>
-                      <span className='bg-light-grey/30 py-2 px-4 sm:bg-transparent sm:p-0'>REACT JS</span>
-                    </li>
-                  </ul>
-                </div>
+                  {/* BOOTSTRAP  */}
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-delay="700"
+                    className="font-medium cursor-default"
+                  >
+                    {/* <img
+                      src={bootstrapIcon}
+                      alt=""
+                      className="hidden mb-2 w-[2.25rem]"
+                    /> */}
+                    <span className="bg-light-grey/30 py-2 px-4">
+                      BOOTSTRAP
+                    </span>
+                  </li>
+                  {/* GITHUB  */}
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-delay="700"
+                    className="font-medium cursor-default"
+                  >
+                    {/* <i className="ri-github-fill hidden text-3xl mb-2"></i> */}
+                    <span className="bg-light-grey/30 py-2 px-4">GITHUB</span>
+                  </li>
+                  {/* FIGMA  */}
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-delay="700"
+                    className=" font-medium cursor-default"
+                  >
+                    {/* <i className="ri-github-fill hidden text-3xl mb-2"></i> */}
+                    <span className="bg-light-grey/30 py-2 px-4">FIGMA</span>
+                  </li>
+                  {/* TAILWINDCSS  */}
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-delay="800"
+                    className=" font-medium cursor-default"
+                  >
+                    {/* <img
+                      src={tailwindcssIcon}
+                      alt=""
+                      className="hidden mb-2 w-[2.25rem] "
+                    /> */}
+                    <span className="bg-light-grey/30 py-2 px-4">
+                      TAILWINDCSS
+                    </span>
+                  </li>
+                </ul>
               </div>
+            </div>
 
             {/* EDUCATION */}
             <div
@@ -315,4 +385,4 @@ export const Home = () => {
       </section>
     </div>
   );
-};
+}
