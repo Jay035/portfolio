@@ -20,6 +20,8 @@ const Project = lazy(() => import("./pages/Project"));
 const Contact = lazy(() => import("./pages/Contact"));
 // import { motion } from "framer-motion";
 
+
+
 function App() {
   const [menuDisplay, setMenuDisplay] = useState(false);
   const [bg, setBg] = useState(true);
