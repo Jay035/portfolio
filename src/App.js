@@ -1,12 +1,9 @@
-// import { Home } from "./pages/Home";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
   NavLink,
 } from "react-router-dom";
-// import { Project } from "./pages/Project";
-// import { Contact } from "./pages/Contact";
 import { Suspense, lazy, useEffect, useState } from "react";
 import logo from "./assets/logo.png";
 import AOS from "aos";
