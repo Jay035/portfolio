@@ -177,6 +177,35 @@ export default function Home() {
                       JAVASCRIPT
                     </span>
                   </li>
+<li
+
+                    data-aos="fade-up"
+
+                    data-aos-duration="3000"
+
+                    data-aos-delay="800"
+
+                    className=" font-medium"
+
+                  >
+
+                    {/* <img
+
+                      src={javascriptIcon}
+
+                      alt=""
+
+                      className="hidden mb-2 w-[2.25rem]"
+
+                    /> */}
+
+                    <span className="bg-light-grey/30 py-2 px-4">
+
+                      TYPESCRIPT
+
+                    </span>
+
+                  </li>
                   {/* NEXT JS */}
                   <li
                     data-aos="fade-up"
