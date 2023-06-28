@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: [" Chibuike Ukandu. ", " a Software Developer. ", " a Frontend Engineer. "],
+      strings: [" Chibuike Ukandu. ", " a Frontend Engineer. "],
       startDelay: 300,
       typeSpeed: 200,
       backSpeed: 150,
@@ -177,18 +177,12 @@ export default function Home() {
                       JAVASCRIPT
                     </span>
                   </li>
-<li
-
+                  <li
                     data-aos="fade-up"
-
                     data-aos-duration="3000"
-
                     data-aos-delay="800"
-
                     className=" font-medium"
-
                   >
-
                     {/* <img
 
                       src={javascriptIcon}
@@ -200,11 +194,8 @@ export default function Home() {
                     /> */}
 
                     <span className="bg-light-grey/30 py-2 px-4">
-
                       TYPESCRIPT
-
                     </span>
-
                   </li>
                   {/* NEXT JS */}
                   <li
