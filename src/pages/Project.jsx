@@ -1,85 +1,77 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Card } from "./ProjectCard";
-import { ProjectList } from "./ProjectList";
-import {
-  AllWorks,
-  ReactJSWorks,
-  VanillaJSWorks,
-  VanillaCSSWorks,
-  HTMLWorks,
-  TailwindCSSWorks,
-  NextJSWorks,
-} from "./ProjectData";
+import { AllWorks } from "./ProjectData";
 
 export default function Project() {
   const portfolioHeading = "<PORTFOLIO />";
-  const [selected, setSelected] = useState("all");
+  // const [selected, setSelected] = useState("all");
   const [data, setData] = useState([]);
-  const list = [
-    {
-      id: "all",
-      title: "All",
-    },
-    {
-      id: "html",
-      title: "HTML",
-    },
-    {
-      id: "css",
-      title: "CSS",
-    },
-    // {
-    //     id: "sass",
-    //     title: "SCSS/SASS"
-    // },
-    {
-      id: "tailwindcss",
-      title: "TailwindCSS",
-    },
-    {
-      id: "vanillaJS",
-      title: "Vanilla JS",
-    },
-    // {
-    //     id: "api",
-    //     title: "API"
-    // },
-    {
-      id: "reactJS",
-      title: "React JS",
-    },
-    {
-      id: "nextJS",
-      title: "Next JS",
-    },
-  ];
+  // const list = [
+  //   {
+  //     id: "all",
+  //     title: "All",
+  //   },
+  //   {
+  //     id: "html",
+  //     title: "HTML",
+  //   },
+  //   {
+  //     id: "css",
+  //     title: "CSS",
+  //   },
+  //   // {
+  //   //     id: "sass",
+  //   //     title: "SCSS/SASS"
+  //   // },
+  //   {
+  //     id: "tailwindcss",
+  //     title: "TailwindCSS",
+  //   },
+  //   {
+  //     id: "vanillaJS",
+  //     title: "Vanilla JS",
+  //   },
+  //   // {
+  //   //     id: "api",
+  //   //     title: "API"
+  //   // },
+  //   {
+  //     id: "reactJS",
+  //     title: "React JS",
+  //   },
+  //   {
+  //     id: "nextJS",
+  //     title: "Next JS",
+  //   },
+  // ];
   useEffect(() => {
-    switch (selected) {
-      case "all":
-        setData(AllWorks);
-        break;
-      case "html":
-        setData(HTMLWorks);
-        break;
-      case "css":
-        setData(VanillaCSSWorks);
-        break;
-      case "tailwindcss":
-        setData(TailwindCSSWorks);
-        break;
-      case "vanillaJS":
-        setData(VanillaJSWorks);
-        break;
-      case "reactJS":
-        setData(ReactJSWorks);
-        break;
-      case "nextJS":
-        setData(NextJSWorks);
-        break;
-      default:
-        setData(AllWorks);
-    }
-  }, [selected]);
+    // switch (selected) {
+    //   case "all":
+    //     setData(AllWorks);
+    //     break;
+    //   case "html":
+    //     setData(HTMLWorks);
+    //     break;
+    //   case "css":
+    //     setData(VanillaCSSWorks);
+    //     break;
+    //   case "tailwindcss":
+    //     setData(TailwindCSSWorks);
+    //     break;
+    //   case "vanillaJS":
+    //     setData(VanillaJSWorks);
+    //     break;
+    //   case "reactJS":
+    //     setData(ReactJSWorks);
+    //     break;
+    //   case "nextJS":
+    //     setData(NextJSWorks);
+    //     break;
+    //   default:
+    //     setData(AllWorks);
+    // }
+    setData(AllWorks);
+  }, []);
 
   return (
     <div
@@ -98,7 +90,7 @@ export default function Project() {
         </h1>
         <p className="font-bold uppercase text-xl">Selected Projects</p>
         {/* buttons */}
-        <ul
+        {/* <ul
           data-aos="fade-up"
           data-aos-duration="3000"
           data-aos-delay="500"
@@ -113,7 +105,7 @@ export default function Project() {
               title={item.title}
             />
           ))}
-        </ul>
+        </ul> */}
 
         <section
           data-aos="fade-up"

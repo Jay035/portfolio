@@ -1,12 +1,11 @@
-import React from "react";
 import { useEffect, useRef } from "react";
-import cv from "../assets/Chibuike_Ukandu_ CV.pdf";
+// import cv from "../assets/Chibuike_Ukandu_ CV.pdf";
 import Typed from "typed.js";
 import { Link } from "react-router-dom";
-import sassIcon from "../assets/sass.png";
-import tailwindcssIcon from "../assets/tailwindcss.png";
-import javascriptIcon from "../assets/javascript.png";
-import bootstrapIcon from "../assets/bootstrap.png";
+// import sassIcon from "../assets/sass.png";
+// import tailwindcssIcon from "../assets/tailwindcss.png";
+// import javascriptIcon from "../assets/javascript.png";
+// import bootstrapIcon from "../assets/bootstrap.png";
 
 export default function Home() {
   // create ref element
@@ -45,10 +44,10 @@ export default function Home() {
           className="relative h-4/5 text-center w-11/12 max-w-[800px] mx-auto leading-loose sm:ml-10 sm:text-left top-48 sm:top-72 xl:ml-20"
         >
           <h1 className="text-2xl text-white font-semibold mb-2 sm:text-4xl xl:text-5xl">
-            Hello, I'm <span ref={el}></span>
+            Hello, I&apos;m <span ref={el}></span>
           </h1>
           <h4 className="text-lg font-semibold sm:text-2xl">
-            I'm a developer who is passionate about creating interactive
+            I&apos;m a developer who is passionate about creating interactive
             interfaces that solve human problems.{" "}
           </h4>
           {/* buttons */}
@@ -67,7 +66,7 @@ export default function Home() {
             <button className="block cursor-auto bg-button-black p-2 w-1/2 sm:w-2/5 mx-auto sm:mx-0 my-2 text-white font-semibold hover:bg-[#505052] sm:py-4">
               <a
                 className="py-4 px-4 text-lg sm:text-xl xl:text-xl"
-                href="https://drive.google.com/file/d/1zxQbHUX1Vz7GglWnuJj9mVRsnXOBVXeh/view?usp=sharing"
+                href="https://drive.google.com/drive/folders/1XCXprwBWru8RaziesGGdOhT1EHVOI_Ih?usp=drive_link"
               >
                 Get CV
               </a>
@@ -117,7 +116,7 @@ export default function Home() {
               data-aos-delay="300"
               className="text-2xl xl:text-3xl mb-2 font-medium"
             >
-              Hello, I'm{" "}
+              Hello, I&apos;m{" "}
               <span className="text-white opacity-90">Chibuike Ukandu.</span>
             </h3>
             <p
@@ -126,11 +125,11 @@ export default function Home() {
               data-aos-delay="400"
               className=""
             >
-              I'm an enthusiastic Frontend developer, an ardent believer in
+              I&apos;m an enthusiastic Frontend developer, an ardent believer in
               continuous learning of both technical and soft skills to improve
               my ability to deliver great software solutions with the best user
-              experience. Whether it's a project, job opportunity, or just a
-              chat, feel free to contact me.
+              experience. Whether it&apos;s a project, job opportunity, or just
+              a chat, feel free to contact me.
             </p>
 
             {/* SKILLS */}
