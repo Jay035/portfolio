@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b14fd75b.css",
+    "main.js": "/static/js/main.0704de73.js",
+    "static/js/184.efd4df8d.chunk.js": "/static/js/184.efd4df8d.chunk.js",
+    "static/js/578.59fc8529.chunk.js": "/static/js/578.59fc8529.chunk.js",
+    "static/js/813.3b51cf6f.chunk.js": "/static/js/813.3b51cf6f.chunk.js",
+    "static/media/Chibuike_Ukandu_ CV.pdf": "/static/media/Chibuike_Ukandu_ CV.655ca4e2fb0331a96c2a.pdf",
+    "static/media/contact.jpg": "/static/media/contact.7e6b0b94fd45e40566ba.jpg",
+    "static/media/meme-generator.png": "/static/media/meme-generator.ab8a9ef3ce9593b3d273.png",
+    "static/media/SoliMaxHero.png": "/static/media/SoliMaxHero.2ab0cdcd8999256d00f7.png",
+    "static/media/portfolio.png": "/static/media/portfolio.f860e739bc8e4052da7b.png",
+    "static/media/travel-journal.png": "/static/media/travel-journal.6e204f5dcd7045391c41.png",
+    "static/media/space-tourism-page.jpg": "/static/media/space-tourism-page.39201d67247771bd73d6.jpg",
+    "static/media/advice-generator.jpg": "/static/media/advice-generator.bd372577d35c4ff20a55.jpg",
+    "static/media/sunnyside-landing-page.jpg": "/static/media/sunnyside-landing-page.f676005a14ca4aec61a0.jpg",
+    "static/media/time-tracking-dashboard.png": "/static/media/time-tracking-dashboard.4a0e01b69a8239d48b61.png",
+    "static/media/ecommerce.jpg": "/static/media/ecommerce.3b6a560ebbc87c939f7b.jpg",
+    "static/media/intro-section.jpg": "/static/media/intro-section.c54f50fe6ca494fe2e2f.jpg",
+    "static/media/fylo-landing-page.jpg": "/static/media/fylo-landing-page.8fffd77f4847c168b296.jpg",
+    "static/media/todo-app.jpg": "/static/media/todo-app.8e3ac4a720763a3d6e8b.jpg",
+    "static/media/portfolio-bg.jpg": "/static/media/portfolio-bg.fc2130c1ca8d6c8b5fe4.jpg",
+    "static/media/social-media-dashboard.jpg": "/static/media/social-media-dashboard.738301e94f182ad19e00.jpg",
+    "static/media/logo.png": "/static/media/logo.5c2a1b7ee202205e7d35.png",
+    "static/media/calculator.jpg": "/static/media/calculator.c5e01a6fdf4d1c178749.jpg",
+    "static/media/launch-countdown.jpg": "/static/media/launch-countdown.40bb4b7754467d37b2f1.jpg",
+    "static/media/background.jpg": "/static/media/background.362707523e6762c737c0.jpg",
+    "static/media/interactive-rating.jpg": "/static/media/interactive-rating.e216cabf51047ff9ba7d.jpg",
+    "index.html": "/index.html",
+    "main.b14fd75b.css.map": "/static/css/main.b14fd75b.css.map",
+    "main.0704de73.js.map": "/static/js/main.0704de73.js.map",
+    "184.efd4df8d.chunk.js.map": "/static/js/184.efd4df8d.chunk.js.map",
+    "578.59fc8529.chunk.js.map": "/static/js/578.59fc8529.chunk.js.map",
+    "813.3b51cf6f.chunk.js.map": "/static/js/813.3b51cf6f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b14fd75b.css",
+    "static/js/main.0704de73.js"
+  ]
+}

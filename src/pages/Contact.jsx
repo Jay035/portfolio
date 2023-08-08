@@ -1,5 +1,5 @@
-import { useRef, useState } from "react";
-import emailjs from "emailjs";
+import React, { useRef, useState } from "react";
+import emailjs from "emailjs-com";
 
 export default function Contact() {
   const form = useRef();
@@ -19,11 +19,9 @@ export default function Contact() {
       .then(
         (result) => {
           setSuccessTextState(!successTextState);
-          console.log(result);
           e.target.reset();
         },
         (error) => {
-          console.log(error);
           setErrorTextState(!errorTextState);
         }
       );
@@ -51,8 +49,8 @@ export default function Contact() {
           <div className="">
             <div className="">
               <p className="mb-4 text-xl">
-                Feel free to contact me and I&apos;ll get back to you as soon as
-                I can.
+                Feel free to contact me and I'll get back to you as soon as I
+                can.
               </p>
               <section className="">
                 <form
@@ -114,7 +112,7 @@ export default function Contact() {
           {/* content-right */}
           <div className="py-4 sm:text-xl">
             <p className="hidden sm:inline-block">
-              I will love to hear from you. Whether it&apos;s a project, job
+              I will love to hear from you. Whether it's a project, job
               opportunity or just a chat, feel free to contact me.
             </p>
             <p className="pt-4 ">
@@ -137,7 +135,7 @@ export default function Contact() {
           className={`ri-close-line flex justify-end text-white hover:text-white/50 text-4xl cursor-pointer`}
         ></i>
         <span>
-          Thank you for getting in touch. I&apos;ll get back to you as soon as
+          Thank you for getting in touch. I'll get back to you as soon as
           possible.
         </span>
       </div>
